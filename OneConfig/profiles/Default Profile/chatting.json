@@ -1,0 +1,80 @@
+{
+  "textRenderType": 1,
+  "chatBackgroundColor": {
+    "hsba": [
+      0,
+      0,
+      0,
+      128
+    ],
+    "dataBit": -1
+  },
+  "hoveredChatBackgroundColor": {
+    "hsba": [
+      0,
+      0,
+      31,
+      128
+    ],
+    "dataBit": -1
+  },
+  "compactInputBox": false,
+  "inputBoxBackgroundColor": {
+    "hsba": [
+      0,
+      0,
+      0,
+      128
+    ],
+    "dataBit": -1
+  },
+  "informForAlternatives": true,
+  "smoothChat": true,
+  "messageSpeed": 0.5,
+  "smoothScrolling": true,
+  "scrollingSpeed": 0.15,
+  "removeScrollBar": true,
+  "chatButtonBackgroundColor": {
+    "hsba": [
+      0,
+      0,
+      0,
+      128
+    ],
+    "dataBit": -1
+  },
+  "chatButtonHoveredBackgroundColor": {
+    "hsba": [
+      0,
+      0,
+      100,
+      128
+    ],
+    "dataBit": -1
+  },
+  "chatCopy": true,
+  "rightClickCopy": false,
+  "chatDelete": true,
+  "chatDeleteHistory": true,
+  "chatScreenshot": true,
+  "chatSearch": true,
+  "showChatHeads": true,
+  "offsetNonPlayerMessages": false,
+  "hideChatHeadOnConsecutiveMessages": true,
+  "ignored": false,
+  "spamThreshold": 100,
+  "customChatFormatting": false,
+  "hideSpam": false,
+  "customChatHeight": false,
+  "focusedHeight": 180,
+  "unfocusedHeight": 180,
+  "copyMode": 0,
+  "chatTabs": true,
+  "hypixelOnlyChatTabs": true,
+  "chatShortcuts": false,
+  "hypixelOnlyChatShortcuts": true,
+  "removeTooltipBackground": false,
+  "tooltipTextRenderType": 1,
+  "enabled": true,
+  "canToggle": true
+}

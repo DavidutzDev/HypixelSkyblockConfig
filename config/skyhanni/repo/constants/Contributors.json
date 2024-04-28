@@ -1,0 +1,99 @@
+{
+  "contributors": {
+    "Alea1337": {},
+    "appable": {},
+    "CalMWolfs": {
+      "suffix": "§e:)",
+      "spinny": true
+    },
+    "catgirlseraid": {
+      "suffix": "§d:3",
+      "spinny": true
+    },
+    "cimbraien": {},
+    "Conutik": {},
+    "Cuz_Im_Clicks": {},
+    "Eisengolem": {},
+    "Empa_": {
+      "suffix": "§d:3"
+    },
+    "Erymanthus": {},
+    "Fix3dll": {},
+    "Frost19": {},
+    "hannibal2": {
+      "suffix": "§3§l:O"
+    },
+    "HiZe_": {
+      "suffix": "§d:3"
+    },
+    "JTAG": {},
+    "Ke5o": {},
+    "lrg89": {},
+    "martimavocado": {},
+    "Mikecraft1224": {},
+    "NetheriteMiner": {},
+    "Obsidianninja11": {},
+    "owoLuna": {
+      "suffix": "§d:3"
+    },
+    "oxsss": {},
+    "ReyMaratov": {},
+    "Skirtwearer": {
+      "suffix": "§d:3"
+    },
+    "Skyblock_Lobby": {},
+    "SkyHanni": {
+      "suffix": "§3§l:O",
+      "spinny": true,
+      "alt from": "hannibal2"
+    },
+    "ThatGravyBoat": {
+      "suffix": "§d:3",
+      "spinny": true
+    },
+    "thisiscad": {},
+    "Throwpo": {
+      "suffix": "§b:§dO",
+      "spinny": true
+    },
+    "Thunderblade73": {},
+    "Vahvl": {
+      "suffix": "§d:3"
+    },
+    "Vixid": {},
+    "Wambux": {},
+    "whalker": {
+      "suffix": "§Z§l:D"
+    },
+    "Wolfie586": {
+      "suffix": "§e:]",
+      "spinny": true,
+      "alt from": "CalMWolfs"
+    },
+    "Zickles": {},
+    "Biscut": {
+      "spinny": true,
+      "external_mod": "SBA"
+    },
+    "Pinpointed": {
+      "spinny": true,
+      "external_mod": "SBA"
+    },
+    "Berded": {
+      "spinny": true,
+      "external_mod": "SBA"
+    },
+    "Potat_owo": {
+      "spinny": true,
+      "external_mod": "SBA"
+    },
+    "Pnda__": {
+      "spinny": true,
+      "external_mod": "SBA"
+    },
+    "StopUsingSBE": {
+      "spinny": true,
+      "external_mod": "SBA"
+    }
+  }
+}

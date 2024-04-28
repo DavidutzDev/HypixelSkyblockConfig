@@ -1,0 +1,53 @@
+{
+  "petMap": {
+    "0": {
+      "petType": "GRIFFIN",
+      "rarity": "UNCOMMON",
+      "petLevel": {
+        "currentLevel": 1,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 175,
+        "expRequiredForMaxLevel": 8644220,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "combat",
+      "candyUsed": 0
+    },
+    "1": {
+      "petType": "ENDERMAN",
+      "rarity": "COMMON",
+      "petLevel": {
+        "currentLevel": 0,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 0,
+        "expRequiredForMaxLevel": 0,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "combat",
+      "candyUsed": 0
+    },
+    "2": {
+      "petType": "ROCK",
+      "rarity": "COMMON",
+      "petLevel": {
+        "currentLevel": 0,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 0,
+        "expRequiredForMaxLevel": 0,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "mining",
+      "candyUsed": 0
+    }
+  },
+  "selectedPet": 0,
+  "selectedPet2": -1,
+  "tamingLevel": 23,
+  "beastMultiplier": 0.0
+}

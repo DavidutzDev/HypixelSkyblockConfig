@@ -1,0 +1,792 @@
+{
+  "expertiseLore": false,
+  "hidePetCandy": false,
+  "gemstoneLore": false,
+  "stopSalvageStarred": false,
+  "swapToPickBlock": false,
+  "flowerWeapons": true,
+  "hideArmour": false,
+  "hidePlayerArmourOnly": false,
+  "autoJoinSkyblock": true,
+  "announceVanqs": false,
+  "gparty": false,
+  "golden": false,
+  "drillFix": true,
+  "autoAcceptReparty": false,
+  "meterTracker": false,
+  "chatMaddox": true,
+  "blockSlayer": false,
+  "slayerName": 0,
+  "slayerNumber": 4,
+  "melodyTooltips": true,
+  "hackingTooltips": true,
+  "hideTooltipsInExperimentAddons": true,
+  "customColouredNames": false,
+  "customNametags": true,
+  "lividSolverHud": {
+    "lividColour": {
+      "hsba": [
+        240,
+        100,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": true,
+    "showInGuis": true
+  },
+  "threeMan": true,
+  "threeManAnswerColour": 2,
+  "oruo": true,
+  "triviaWrongAnswerColour": 12,
+  "blaze": true,
+  "lowestBlazeColour": {
+    "hsba": [
+      0,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "highestBlazeColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "creeper": true,
+  "creeperLines": true,
+  "ticTacToe": true,
+  "ticTacToeColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "waterSolverHud": {
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "boulder": true,
+  "boulderColour": {
+    "hsba": [
+      120,
+      80,
+      49,
+      255
+    ],
+    "dataBit": -1
+  },
+  "boulderArrowColour": {
+    "hsba": [
+      120,
+      100,
+      37,
+      255
+    ],
+    "dataBit": -1
+  },
+  "silverfish": true,
+  "silverfishLineColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "iceWalk": true,
+  "iceWalkLineColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "startsWith": true,
+  "startsWithColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      191
+    ],
+    "dataBit": -1
+  },
+  "selectAll": true,
+  "selectAllColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      191
+    ],
+    "dataBit": -1
+  },
+  "clickInOrder": true,
+  "clickInOrderNextColour": {
+    "hsba": [
+      308,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "clickInOrderNextToNextColour": {
+    "hsba": [
+      177,
+      95,
+      93,
+      255
+    ],
+    "dataBit": -1
+  },
+  "sameColour": true,
+  "blockWrongTerminalClicks": false,
+  "itemFrameOnSeaLanterns": true,
+  "ultrasequencer": true,
+  "ultrasequencerNextColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      229
+    ],
+    "dataBit": -1
+  },
+  "ultrasequencerNextToNextColour": {
+    "hsba": [
+      184,
+      72,
+      90,
+      215
+    ],
+    "dataBit": -1
+  },
+  "chronomatron": true,
+  "chronomatronNextColour": {
+    "hsba": [
+      120,
+      74,
+      100,
+      229
+    ],
+    "dataBit": -1
+  },
+  "chronomatronNextToNextColour": {
+    "hsba": [
+      184,
+      72,
+      90,
+      190
+    ],
+    "dataBit": -1
+  },
+  "superpairs": true,
+  "outlineText": false,
+  "coordsHud": {
+    "coordsColour": 15,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "maxSkillHud": {
+    "maxSkillDisplayColour": 11,
+    "maxSkillTime": 3,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "cakeTimerHud": {
+    "cakeColour": 6,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "abilityCooldownHud": {
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 0.5462891,
+    "positionAlignment": 1,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "firePillarHud": {
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "minibossTimerHud": {
+    "alert": true,
+    "minibossTimerColour": 6,
+    "minibossTimerUnknownColour": 12,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "golemTimerHud": {
+    "golemAlertColour": 6,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "bonzoTimerHud": {
+    "bonzoTimerColour": 12,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "spiritTimerHud": {
+    "spiritTimerColour": 12,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "tetherHud": {
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "giantHPHud": {
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "dungeonTimerHud": {
+    "timerColour": 7,
+    "greenColour": 10,
+    "redColour": 12,
+    "goldColour": 6,
+    "decimals": 2,
+    "showDiff": false,
+    "compareGold": false,
+    "bestPossibleTime": false,
+    "sumOfBest": false,
+    "extraInfo": false,
+    "inChat": false,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "dungeonScoreHud": {
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "minionLastCollected": true,
+  "lastCollectedColour": {
+    "hsba": [
+      180,
+      66,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "showTotalMagmafish": false,
+  "bazaarTimeToFill": true,
+  "lootDisplayHud": {
+    "display": 0,
+    "autoDisplay": false,
+    "sessionDisplay": false,
+    "slayerCountTotal": false,
+    "masterSRunsDisplay": false,
+    "splitFishing": true,
+    "showTrophyCompletion": false,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "skillTrackerHud": {
+    "autoSkillTracker": false,
+    "skillTrackerColour": 11,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "powderTrackerHud": {
+    "powderTrackerColour": 11,
+    "onlyInArea": true,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "petColours": false,
+  "ignored1": false,
+  "highlightCommissions": true,
+  "commissionColour": {
+    "hsba": [
+      120,
+      68,
+      100,
+      215
+    ],
+    "dataBit": -1
+  },
+  "highlightOrders": true,
+  "highlightOrdersColour": {
+    "hsba": [
+      120,
+      68,
+      100,
+      215
+    ],
+    "dataBit": -1
+  },
+  "highlightPests": false,
+  "highlightPestsColour": {
+    "hsba": [
+      120,
+      68,
+      100,
+      215
+    ],
+    "dataBit": -1
+  },
+  "highlightSlayers": true,
+  "slayerBoxColour": {
+    "hsba": [
+      240,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "highlightArachne": false,
+  "arachneBoxColour": {
+    "hsba": [
+      120,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "highlightSkeletonMasters": false,
+  "skeletonMasterBoxColour": {
+    "hsba": [
+      0,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "alertNoise": "",
+  "alerts": false,
+  "golemAlerts": true,
+  "rngesusAlerts": false,
+  "notifySlayerSlain": false,
+  "kuudraNotifications": false,
+  "spiritBearAlerts": true,
+  "lowHealthNotify": true,
+  "watcherReady": true,
+  "necronNotifications": true,
+  "endOfFarmAlert": false,
+  "farmX": true,
+  "farmMinX": -220.0,
+  "farmMaxX": 220.0,
+  "farmZ": true,
+  "farmMinZ": -220.0,
+  "farmMaxZ": 220.0,
+  "fishingAlert": true,
+  "thunderAlert": true,
+  "jawbusAlert": true,
+  "gwAlert": true,
+  "aliases": true,
+  "crystalHollowWaypoints": true,
+  "autoWaypoints": true,
+  "autoPlayerWaypoints": false,
+  "autoImportWaypoints": true,
+  "permaWaypoints": "Crystal Nucleus@-512,110,512",
+  "ignored2": false,
+  "coordAlpha": 10,
+  "coordBeta": 50,
+  "sceptreMessages": true,
+  "midasStaffMessages": true,
+  "implosionMessages": true,
+  "healMessages": true,
+  "cooldownMessages": true,
+  "manaMessages": true,
+  "killComboMessages": true,
+  "disableHypixelMusic": true,
+  "dungeonBossMusic": false,
+  "dungeonBossVolume": 50,
+  "phase2Volume": 50,
+  "phase3Volume": 50,
+  "phase4Volume": 50,
+  "phase5Volume": 50,
+  "bloodRoomMusic": false,
+  "bloodRoomVolume": 50,
+  "dungeonMusic": false,
+  "dungeonVolume": 50,
+  "hubMusic": false,
+  "hubVolume": 50,
+  "islandMusic": false,
+  "islandVolume": 50,
+  "dungeonHubMusic": false,
+  "dungeonHubVolume": 50,
+  "farmingIslandsMusic": false,
+  "farmingIslandsVolume": 50,
+  "gardenMusic": false,
+  "gardenVolume": 50,
+  "goldMineMusic": false,
+  "goldMineVolume": 50,
+  "deepCavernsMusic": false,
+  "deepCavernsVolume": 50,
+  "dwarvenMinesMusic": false,
+  "dwarvenMinesVolume": 50,
+  "crystalHollowsMusic": false,
+  "crystalHollowsVolume": 50,
+  "spidersDenMusic": false,
+  "spidersDenVolume": 50,
+  "crimsonIsleMusic": false,
+  "crimsonIsleVolume": 50,
+  "kuudraMusic": false,
+  "kuudraVolume": 50,
+  "endMusic": false,
+  "endVolume": 50,
+  "parkMusic": false,
+  "parkVolume": 50,
+  "mainColour": 10,
+  "secondaryColour": 2,
+  "delimiterColour": 11,
+  "errorColour": 12,
+  "typeColour": 10,
+  "valueColour": 2,
+  "skillAverageColour": 6,
+  "pet1To9Colour": {
+    "hsba": [
+      0,
+      0,
+      60,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet10To19Colour": {
+    "hsba": [
+      350,
+      83,
+      83,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet20To29Colour": {
+    "hsba": [
+      10,
+      79,
+      93,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet30To39Colour": {
+    "hsba": [
+      228,
+      92,
+      94,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet40To49Colour": {
+    "hsba": [
+      134,
+      91,
+      67,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet50To59Colour": {
+    "hsba": [
+      201,
+      100,
+      84,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet60To69Colour": {
+    "hsba": [
+      263,
+      60,
+      77,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet70To79Colour": {
+    "hsba": [
+      306,
+      63,
+      83,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet80To89Colour": {
+    "hsba": [
+      338,
+      66,
+      36,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet90To99Colour": {
+    "hsba": [
+      32,
+      50,
+      61,
+      191
+    ],
+    "dataBit": -1
+  },
+  "pet100Colour": {
+    "hsba": [
+      48,
+      69,
+      94,
+      191
+    ],
+    "dataBit": -1
+  },
+  "maddoxKey": {
+    "keyBinds": [
+      50
+    ]
+  },
+  "abilityKey": {
+    "keyBinds": [
+      75
+    ]
+  },
+  "waypointKey": {
+    "keyBinds": [
+      77
+    ]
+  },
+  "skillTrackerKey": {
+    "keyBinds": [
+      76
+    ]
+  },
+  "powderTrackerKey": {
+    "keyBinds": [
+      72
+    ]
+  },
+  "disableMouse": {
+    "keyBinds": []
+  },
+  "ignored3": false,
+  "disableWS": {
+    "keyBinds": []
+  },
+  "disableAD": {
+    "keyBinds": []
+  },
+  "debug": false,
+  "debugPacketsIn": false,
+  "debugPacketsOut": false,
+  "debugChat": false,
+  "fixLocraw": false,
+  "spiritBootsFix": true,
+  "enabled": true,
+  "canToggle": true
+}

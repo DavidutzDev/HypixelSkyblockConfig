@@ -1,0 +1,66 @@
+{
+  "currentProfile": "Default Profile",
+  "autoUpdate": true,
+  "updateChannel": 0,
+  "favoriteMods": [],
+  "favoriteColors": [],
+  "recentColors": [
+    {
+      "hsba": [
+        172,
+        7,
+        37,
+        49
+      ],
+      "dataBit": -1
+    },
+    {
+      "hsba": [
+        180,
+        7,
+        14,
+        48
+      ],
+      "dataBit": -1
+    },
+    {
+      "hsba": [
+        180,
+        7,
+        14,
+        50
+      ],
+      "dataBit": -1
+    },
+    {
+      "hsba": [
+        1,
+        100,
+        67,
+        102
+      ],
+      "dataBit": -1
+    },
+    {
+      "hsba": [
+        180,
+        7,
+        14,
+        102
+      ],
+      "dataBit": -1
+    },
+    {
+      "hsba": [
+        324,
+        94,
+        61,
+        70
+      ],
+      "dataBit": -1
+    }
+  ],
+  "australia": false,
+  "enabled": true,
+  "canToggle": true
+}
