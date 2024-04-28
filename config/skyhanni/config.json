@@ -450,10 +450,10 @@
         "centerY": true
       },
       "customSpeed": {
-        "wheat": 93.0,
-        "carrot": 93.0,
-        "potato": 93.0,
-        "netherWart": 93.0,
+        "wheat": 116.0,
+        "carrot": 116.0,
+        "potato": 116.0,
+        "netherWart": 116.0,
         "pumpkin": 155.0,
         "melon": 155.0,
         "cocoaBeans": 155.0,
@@ -688,7 +688,7 @@
           "centerY": true
         },
         "teleportHotkey": -100,
-        "alwaysTp": true
+        "alwaysTp": false
       },
       "pestWaypoint": {
         "enabled": true,
