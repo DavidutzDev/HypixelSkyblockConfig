@@ -76,7 +76,7 @@
 		auto_switch_chat_channel = false
 
 	[miscellaneous.items]
-		price_paid = false
+		price_paid = true
 		show_npc_sell_price = true
 		item_stars_display = 0
 		show_attribute_shard_abbreviation = false
@@ -128,12 +128,12 @@
 
 	[miscellaneous.quality_of_life]
 		hide_vanilla_health_display = false
-		container_sell_value = false
+		container_sell_value = true
 		hide_cheap_coins = false
 		hide_jerry_rune = false
 		party_addons = false
 		show_arachne_spawn = false
-		show_lowest_bin_price = false
+		show_lowest_bin_price = true
 		dungeon_pot_lock = 0
 		hide_hunger_display = false
 		include_item_modifiers = true
@@ -427,7 +427,7 @@
 		king_yolkar_waypoint = false
 		crystal_hollows_map_special_places = false
 		crystal_hollows_treasure_helper = false
-		crystal_hollows_map = false
+		crystal_hollows_map = true
 
 	[mining.quality_of_life]
 		powder_ghast_ping = false

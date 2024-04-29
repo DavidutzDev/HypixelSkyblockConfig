@@ -37,9 +37,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "1",
+      "x": 9.5,
+      "y": 28.749805
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -87,9 +87,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "3",
+      "x": 129.0,
+      "y": -18.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -273,8 +273,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "x": 110.0,
+      "y": 14.0
     },
     "scale": 0.5462891,
     "positionAlignment": 1,
@@ -287,9 +287,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "1",
+      "x": 9.5,
+      "y": 37.749805
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -306,8 +306,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "x": 141.5,
+      "y": 54.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -322,8 +322,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "x": 36.721485,
+      "y": 60.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -338,8 +338,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "x": 30.721485,
+      "y": 92.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -354,8 +354,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "x": 91.0,
+      "y": 83.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -364,13 +364,13 @@
     "showInGuis": true
   },
   "tetherHud": {
-    "enabled": true,
+    "enabled": false,
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "2",
+      "x": -5.0,
+      "y": 42.249805
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -383,9 +383,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "6",
+      "x": 50.0,
+      "y": -90.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -405,13 +405,13 @@
     "sumOfBest": false,
     "extraInfo": false,
     "inChat": false,
-    "enabled": true,
+    "enabled": false,
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
+      "anchor": "6",
       "x": 0.0,
-      "y": 0.0
+      "y": -76.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -420,15 +420,15 @@
     "showInGuis": true
   },
   "dungeonScoreHud": {
-    "enabled": false,
+    "enabled": true,
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
+      "anchor": "3",
       "x": 0.0,
-      "y": 0.0
+      "y": 12.86504
     },
-    "scale": 1.0,
+    "scale": 0.7357422,
     "positionAlignment": 0,
     "showInChat": true,
     "showInDebug": false,
@@ -492,9 +492,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "8",
+      "x": -158.5,
+      "y": -81.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -590,7 +590,7 @@
   "autoWaypoints": true,
   "autoPlayerWaypoints": false,
   "autoImportWaypoints": true,
-  "permaWaypoints": "Crystal Nucleus@-512,110,512",
+  "permaWaypoints": "",
   "ignored2": false,
   "coordAlpha": 10,
   "coordBeta": 50,

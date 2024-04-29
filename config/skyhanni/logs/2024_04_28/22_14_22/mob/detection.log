@@ -1,0 +1,54 @@
+22:49:35 `az2x00s1a8`186 missed {
+ is already Found: false).
+ Position: LorenzVec{x=25.0, y=65.0, z=-41.0}
+ DistanceC: 19.399823247331042
+Relative Position: LorenzVec{x=18.37954883998844, y=-5.0, z=-19.399823247331042}
+ }
+22:49:35 `49s722xw68`185 missed {
+ is already Found: false).
+ Position: LorenzVec{x=22.0, y=71.0, z=-45.5}
+ DistanceC: 23.899823247331042
+Relative Position: LorenzVec{x=15.379548839988441, y=1.0, z=-23.899823247331042}
+ }
+22:50:07 `Slime`2542992 missed {
+ is already Found: false).
+ Position: LorenzVec{x=19.9375, y=100.0, z=11.09375}
+ DistanceC: 20.620354752756352
+Relative Position: LorenzVec{x=20.620354752756352, y=-1.1126548666129281, z=6.233721243165315}
+ }
+22:50:07 `Slime`2542994 missed {
+ is already Found: false).
+ Position: LorenzVec{x=19.9375, y=100.0, z=10.625}
+ DistanceC: 20.620354752756352
+Relative Position: LorenzVec{x=20.620354752756352, y=-1.1126548666129281, z=5.764971243165315}
+ }
+22:50:07 `Slime`2542991 missed {
+ is already Found: false).
+ Position: LorenzVec{x=21.4375, y=101.0, z=11.15625}
+ DistanceC: 21.74420250483049
+Relative Position: LorenzVec{x=21.74420250483049, y=-0.11265486661292812, z=8.143777077457571}
+ }
+22:50:08 `Slime`2542950 missed {
+ is already Found: false).
+ Position: LorenzVec{x=20.84375, y=101.09375, z=5.15625}
+ DistanceC: 16.50427565017234
+Relative Position: LorenzVec{x=16.50427565017234, y=-0.018904866612928117, z=5.793182967767033}
+ }
+22:50:09 `Slime`2542993 missed {
+ is already Found: false).
+ Position: LorenzVec{x=19.9375, y=100.0625, z=11.53125}
+ DistanceC: 18.367029813904065
+Relative Position: LorenzVec{x=18.367029813904065, y=-1.0501548666129281, z=10.043484165910531}
+ }
+23:02:08 `8wo656t5ey`161 missed {
+ is already Found: false).
+ Position: LorenzVec{x=126.5, y=195.0, z=195.5}
+ DistanceC: 3.199999988079071
+Relative Position: LorenzVec{x=-3.199999988079071, y=-1.0, z=0.25859990307245084}
+ }
+23:02:44 `373rt7neib`199 missed {
+ is already Found: false).
+ Position: LorenzVec{x=136.0, y=196.0, z=167.0}
+ DistanceC: 13.300000011920929
+Relative Position: LorenzVec{x=8.947676749302616, y=-1.2491870787446828, z=-13.300000011920929}
+ }

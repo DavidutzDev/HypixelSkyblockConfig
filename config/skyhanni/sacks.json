@@ -6,7 +6,7 @@
           "sackContents": {
             "ENCHANTED_MELON": {
               "amount": 0,
-              "lastChange": -2,
+              "lastChange": -4,
               "status": "OUTDATED"
             },
             "ENCHANTED_PUMPKIN": {
@@ -16,17 +16,17 @@
             },
             "COBBLESTONE": {
               "amount": 0,
-              "lastChange": 0,
+              "lastChange": -15,
               "status": "OUTDATED"
             },
             "MITHRIL_ORE": {
               "amount": 0,
-              "lastChange": 0,
+              "lastChange": -575,
               "status": "OUTDATED"
             },
             "TITANIUM_ORE": {
               "amount": 0,
-              "lastChange": 0,
+              "lastChange": -44,
               "status": "OUTDATED"
             },
             "NETHER_STALK": {
@@ -42,6 +42,61 @@
             "ENCHANTED_NETHER_STALK": {
               "amount": 0,
               "lastChange": -40,
+              "status": "OUTDATED"
+            },
+            "STARFALL": {
+              "amount": 0,
+              "lastChange": -4,
+              "status": "OUTDATED"
+            },
+            "DIAMOND": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "OUTDATED"
+            },
+            "SLIME_BALL": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_HAY_BLOCK": {
+              "amount": 0,
+              "lastChange": -2,
+              "status": "OUTDATED"
+            },
+            "POTATO_ITEM": {
+              "amount": 1,
+              "lastChange": 1,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_COCOA": {
+              "amount": 0,
+              "lastChange": -2,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_CARROT": {
+              "amount": 0,
+              "lastChange": -2,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_POTATO": {
+              "amount": 0,
+              "lastChange": -3,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_BROWN_MUSHROOM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_RED_MUSHROOM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "OUTDATED"
+            },
+            "ROTTEN_FLESH": {
+              "amount": 33,
+              "lastChange": 6,
               "status": "OUTDATED"
             }
           }
