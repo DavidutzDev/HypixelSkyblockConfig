@@ -96,9 +96,9 @@
       "§6- 1x Abiphone Contacts Trio"
     ],
     "island": "hub",
-    "x": -0,
+    "x": -4,
     "y": 73,
-    "z": -102
+    "z": -101
   },
   "Einary": {
     "requirement": [
@@ -169,6 +169,15 @@
     "x": 39,
     "y": 73,
     "z": -101
+  },
+  "Hoppity": {
+    "requirement": [
+      "§6- 1x Fish Chocolat à la Vapeur"
+    ],
+    "island": "hub",
+    "x": 6,
+    "y": 72,
+    "z": 8
   },
   "Igrupan": {
     "requirement": [
@@ -372,6 +381,15 @@
     "y": 133,
     "z": -887
   },
+  "Sirius": {
+    "requirement": [
+      "§6- 1x Sirius' Personal Phone Number"
+    ],
+    "island": "hub",
+    "x": 91,
+    "y": 77,
+    "z": 176
+  },
   "St. Jerry": {
     "requirement": [
       "§6Type the following sentence in chat in front of him:",
@@ -419,6 +437,15 @@
     "requirement": [
       "§6- 2x Revive Stones."
     ]
+  },
+  "Vicent": {
+    "requirement": [
+      "§6- 1x Mole Pet."
+    ],
+    "island": "hub",
+    "x": 98,
+    "y": 74,
+    "z": -102
   },
   "Walter": {
     "requirement": [

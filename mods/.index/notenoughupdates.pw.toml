@@ -1,0 +1,13 @@
+filename = 'NotEnoughUpdates-2.3.3.jar'
+name = 'NotEnoughUpdates'
+side = 'client'
+
+[download]
+hash = '22a99da0f1fd104f05ed791a142a0f1acc2bae057048d484d2a23c790e32c01bcf2b6380d1c132c4be3e2821706d65120db021a4de924dc36655a74ee5dc83e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GGamhqbw/versions/87EGuXiI/NotEnoughUpdates-2.3.3.jar'
+
+[update.modrinth]
+mod-id = 'GGamhqbw'
+version = '87EGuXiI'

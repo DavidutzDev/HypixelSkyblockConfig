@@ -17,7 +17,7 @@
     "§6§lLEGENDARY CHISEL"
   ],
   "internalname": "PERFECT_CHISEL",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 10",
   "clickcommand": "viewrecipe",
   "modver": "",
   "infoType": "WIKI_URL",
@@ -30,11 +30,12 @@
         "PERFECT_PLATE:1.0"
       ],
       "count": 1,
-      "duration": 86400,
+      "duration": 30,
       "overrideOutputId": "PERFECT_CHISEL"
     }
   ],
   "info": [
-    "https://wiki.hypixel.net/Perfect_Chisel"
+    "https://wiki.hypixel.net/Perfect_Chisel",
+    "https://hypixel-skyblock.fandom.com/wiki/Perfect_Chisel"
   ]
 }

@@ -1,4 +1,9 @@
 {
+  "about": {
+    "autoUpdates": true,
+    "updateStream": "FULL",
+    "licenses": {}
+  },
   "misc": {
     "onlyShowOnSkyblock": true,
     "hidePotionEffect": true,
@@ -33,7 +38,11 @@
     "oldSkyBlockMenu": false,
     "defaultArmorColour": false,
     "openAHKeybind": 50,
-    "showWhenCountdownEnds": 1
+    "openSkyBlockRecipeKeybind": 0,
+    "showWhenCountdownEnds": 1,
+    "useEnglishCountdown": false,
+    "hideRegenBounce": false,
+    "neuCustomizeKeybind": 0
   },
   "locationedit": {
     "guiScale": 0
@@ -81,8 +90,10 @@
     "quickCommandsClickType": 0
   },
   "inventoryButtons": {
+    "enableInventoryButtons": true,
     "openEditorButton": true,
     "hideCrafting": false,
+    "hideInDungeonMenus": false,
     "clickType": 0,
     "tooltipDelay": 600
   },
@@ -93,9 +104,11 @@
     "bindingAlsoLocks": false,
     "slotLockKey": 38,
     "lockSlotsInTrade": true,
+    "disableInStorage": false,
     "slotLockSwapDelay": 100,
     "slotLockSound": true,
-    "slotLockSoundVol": 20.0
+    "slotLockSoundVol": 20.0,
+    "resetSlotLocking": 39.0
   },
   "tooltipTweaks": {
     "priceInfoAuc": [
@@ -122,6 +135,7 @@
     "disablePriceKeyKeybind": 25,
     "alwaysShowRequiredItems": true,
     "showReforgeStats": true,
+    "showGemstoneStats": true,
     "hideDefaultReforgeStats": true,
     "missingEnchantList": true,
     "guiScale": 2,
@@ -161,12 +175,15 @@
     "enableEtherwarpHelperOverlay": true,
     "enableEtherwarpBlockOverlay": true,
     "disableOverlayWhenFailed": false,
+    "hideEtherwarpFailText": false,
+    "changeEtherwarpColourWhenFailed": false,
     "etherwarpHighlightColour": "0:70:156:9:97",
+    "etherwarpFailHighlightColour": "00:70:220:40:40",
     "enableBonemerangOverlay": true,
     "highlightTargeted": true,
     "bonemerangPosition": {
-      "x": -1,
-      "y": -1,
+      "x": -18,
+      "y": -66,
       "centerX": false,
       "centerY": false
     },
@@ -187,6 +204,7 @@
     "customWitherCloakSpeed": 2.0,
     "customWitherCloakDistance": 1.2,
     "customWitherCloakCredit": false,
+    "enableGrappleOverlay": true,
     "oldCooldowns": false,
     "pickaxeAbility": true,
     "bonzoAbility": true,
@@ -250,8 +268,8 @@
     ],
     "fishingPauseTimer": 3,
     "fishingPosition": {
-      "x": 0,
-      "y": 199,
+      "x": 11,
+      "y": 140,
       "centerX": false,
       "centerY": false
     },
@@ -336,8 +354,8 @@
       6
     ],
     "slayerPosition": {
-      "x": 63,
-      "y": 129,
+      "x": 11,
+      "y": 68,
       "centerX": false,
       "centerY": false
     },
@@ -412,7 +430,8 @@
     "supMatched": 6,
     "supPossible": 2,
     "supUnmatched": 5,
-    "supPower": 11
+    "supPower": 11,
+    "hexOverpayWarning": 1.0E7
   },
   "mining": {
     "locWaypoints": 1,
@@ -420,11 +439,13 @@
     "emissaryWaypoints": 1,
     "powderGhastWaypoint": true,
     "fallenStarWaypoint": true,
+    "tunnelWaypoints": "SHOW_ALL",
+    "alwaysShowTunnelWaypoints": false,
     "drillFuelBar": true,
     "drillFuelBarWidth": 200,
     "drillFuelBarPosition": {
-      "x": 6,
-      "y": -81,
+      "x": 17,
+      "y": -77,
       "centerX": true,
       "centerY": false
     },
@@ -454,11 +475,17 @@
     "commissionTaskTips": 0,
     "commissionTaskTipNewLine": true,
     "metalDetectorEnabled": true,
+    "metalDetectorLineToSolution": true,
     "metalDetectorShowPossible": true,
+    "metalDetectorTitle": false,
+    "metalDetectorFoundColor": "0:255:255:255:85",
+    "metalDetectorFailedColor": "0:255:255:85:85",
+    "metalDetectorMoveColor": "0:255:255:255:85",
+    "metalDetectorTicks": 20,
     "crystalHollowOverlay": true,
     "crystalHollowOverlayPosition": {
-      "x": -206,
-      "y": 35,
+      "x": -210,
+      "y": 59,
       "centerX": false,
       "centerY": false
     },
@@ -511,7 +538,9 @@
     "dwarvenTextures": true,
     "crystalHollowTextures": true,
     "gemstoneSounds": false,
-    "mithrilSounds": false
+    "mithrilSounds": false,
+    "mineshaftExitWaypoint": true,
+    "powderTodo": true
   },
   "fishing": {
     "hideOtherPlayerAll": false,
@@ -581,6 +610,7 @@
       4
     ],
     "petOverlayIcon": true,
+    "petItemIcon": false,
     "petInfoOverlayStyle": 0,
     "dualPets": false,
     "petInvDisplay": false,
@@ -609,18 +639,31 @@
     "keepPreviousSearch": true,
     "showPastSearches": true,
     "escFullClose": true,
+    "ahSearchHistorySize": 5,
     "underCutWarning": true,
     "overCutWarning": true,
     "warningThreshold": 10.0,
     "overcutWarningThreshold": 50.0,
     "enableSortWarning": true,
-    "enableAhSellValue": true
+    "enableAhSellValue": true,
+    "ctrlFSearch": true,
+    "convertSearchCommand": true
   },
   "bazaarTweaks": {
     "enableSearchOverlay": true,
     "keepPreviousSearch": true,
     "showPastSearches": true,
-    "escFullClose": true
+    "escFullClose": true,
+    "bzSearchHistorySize": 5,
+    "bazaarOverpayWarning": 1.0E7,
+    "ctrlFSearch": true
+  },
+  "recipeTweaks": {
+    "enableSearchOverlay": true,
+    "keepPreviousSearch": false,
+    "showPastSearches": true,
+    "escFullClose": true,
+    "recipeSearchHistorySize": 5
   },
   "ahGraph": {
     "graphEnabled": true,
@@ -634,7 +677,7 @@
     "movingAverageColor": "0:255:0:255:170",
     "movingAverageColor2": "0:255:255:98:0",
     "dataSource": 0,
-    "serverUrl": "",
+    "serverUrl": "pricehistory.notenoughupdates.org",
     "dataRetention": 7,
     "graphZones": 175
   },
@@ -677,7 +720,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "alwaysShowBingoTab": false,
     "showPronounsInPv": false,
@@ -689,18 +733,148 @@
     "tooltip": true
   },
   "apiData": {
-    "apiDataUnlocked": false,
+    "apiDataUnlocked": true,
     "autoupdate_new": true,
-    "repoUser": "",
-    "repoName": "",
-    "repoBranch": "",
+    "repoUser": "NotEnoughUpdates",
+    "repoName": "NotEnoughUpdates-REPO",
+    "repoBranch": "master",
     "repositoryEditing": false,
-    "moulberryCodesApi": "",
+    "repositoryEditingKeybind": 37,
+    "instantEditKeybind": 0,
+    "moulberryCodesApi": "moulberry.codes",
     "ursaApi": ""
   },
   "hidden": {
     "customTodos": [],
     "profileSpecific": {
+      "Lime": {
+        "godPotionDuration": 0,
+        "puzzlerCompleted": 0,
+        "firstCakeAte": 1727109087072,
+        "fetchurCompleted": 0,
+        "commissionsCompleted": 0,
+        "lastFreeRiftInfusionApplied": 0,
+        "experimentsCompleted": 0,
+        "cookieBuffRemaining": 0,
+        "forgeItems": [],
+        "hotmDesires": {},
+        "commissionMilestone": 0,
+        "automatonParts": {
+          "Electron Transmitter": false,
+          "Robotron Reflector": false,
+          "Superlite Motor": false,
+          "Synthetic Heart": false,
+          "Control Switch": false,
+          "FTX 3070": false
+        },
+        "divanMinesParts": {
+          "Scavenged Lapis Sword": false,
+          "Scavenged Diamond Axe": false,
+          "Scavenged Golden Hammer": false,
+          "Scavenged Emerald Hammer": false
+        },
+        "crystals": {
+          "Amber": 0,
+          "Sapphire": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0
+        },
+        "dailyGemstonePowderCompleted": 0,
+        "dailyMithrilPowerCompleted": 0,
+        "nonUnlockedWarpScrolls": [],
+        "dailyHeavyPearlCompleted": 0,
+        "questBoardCompleted": 0,
+        "dailyShopLimitCompleted": 0,
+        "savedEquipment": {
+          "19": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9b32c16e-e77b-33b9-b0c0-fe3ef3ddf92c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc2NzM4NywKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OGZiNmYyZTY0OWMwYWRhYmY1MWVmNDVjN2NlMzIzZmUxNzU4ZjZkYWM0ZjhjZDEzYWRkMWUyYWYyOWZmNiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC CLOAK\"],Name:\"§5Ender Cloak\"},ExtraAttributes:{id:\"ENDER_CLOAK\",uuid:\"dddb4b01-a363-455c-a586-eaedaf8f471b\",timestamp:1716328706663L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC CLOAK"
+            ],
+            "internalname": "_"
+          },
+          "37": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bd07d48f-8954-344a-882d-3710a6e055e5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgyMzQ3NCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmI4ODEzZmJkOGEwNDlkMGU0MmE3Nzk5ZjhkYjY5ZGZlZDljZGQ0NGU3MzUwY2FlZWM1ZjAyM2M3MTUxYzJmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC GLOVES\"],Name:\"§5Ender Gauntlet\"},ExtraAttributes:{id:\"ENDER_GAUNTLET\",uuid:\"ebeea12b-27fd-44fb-be9d-15fb5f47a84f\",timestamp:1716050788998L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC GLOVES"
+            ],
+            "internalname": "_"
+          },
+          "10": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec2cd15f-06cf-30e2-9ced-397aa0f6fef0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc4NTE1MCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYTdiOTU3YjgyMTAzYjE3MTQwZTcxMTc5MTE0NjQ4YTAwMjkxYjA1NjU3YzI3ZDNmOTNkNzI2ZTg3ZTY0MCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC NECKLACE\"],Name:\"§5Ender Necklace\"},ExtraAttributes:{id:\"ENDER_NECKLACE\",uuid:\"6ef307cb-9b22-413d-9c0a-27537e2ac532\",timestamp:1716050966100L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC NECKLACE"
+            ],
+            "internalname": "_"
+          },
+          "28": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab2708bd-f1fa-3fa0-93b2-1e3de2210dfe\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgwNDIwNywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAzMmEwMTY2MjFlMTI2ODcwZmEwMGMyOWM1MWQ5NDJhZmRiYTVhOTRhMjMyN2YyNjRmZTFhOTQwOWU0NTVhZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC BELT\"],Name:\"§5Ender Belt\"},ExtraAttributes:{id:\"ENDER_BELT\",uuid:\"2a932391-c5c5-4ebf-89b1-46364f47a691\",timestamp:1716328906120L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC BELT"
+            ],
+            "internalname": "_"
+          }
+        },
+        "magicalPower": 8,
+        "chestCount": 0,
+        "openedChestCount": 0,
+        "mithrilPowderFound": 0,
+        "gemstonePowderFound": 0,
+        "abiphoneFavouriteContacts": [],
+        "abiphoneShowOnlyFavourites": false,
+        "hotmTree": {},
+        "hasConsumedRiftPrism": false,
+        "abiphoneMagicPower": 0
+      },
       "Kiwi": {
         "godPotionDuration": 0,
         "puzzlerCompleted": 0,
@@ -711,6 +885,7 @@
         "experimentsCompleted": 0,
         "cookieBuffRemaining": 0,
         "forgeItems": [],
+        "hotmDesires": {},
         "commissionMilestone": 0,
         "automatonParts": {
           "Electron Transmitter": false,
@@ -747,7 +922,9 @@
         "gemstonePowderFound": 0,
         "abiphoneFavouriteContacts": [],
         "abiphoneShowOnlyFavourites": false,
-        "hotmTree": {}
+        "hotmTree": {},
+        "hasConsumedRiftPrism": false,
+        "abiphoneMagicPower": 0
       },
       "Lemon": {
         "godPotionDuration": 0,
@@ -790,6 +967,7 @@
             "fromScoreBoard": true
           }
         ],
+        "hotmDesires": {},
         "commissionMilestone": 2,
         "automatonParts": {
           "Electron Transmitter": false,
@@ -917,7 +1095,9 @@
         "gemstonePowderFound": 0,
         "abiphoneFavouriteContacts": [],
         "abiphoneShowOnlyFavourites": false,
-        "hotmTree": {}
+        "hotmTree": {},
+        "hasConsumedRiftPrism": false,
+        "abiphoneMagicPower": 0
       }
     },
     "locationSpecific": {
@@ -1398,8 +1578,11 @@
       "bucket"
     ],
     "previousProfileSearches": [
+      "unicorndear",
+      "actuallyash1",
       "iizmw"
     ],
+    "previousRecipeSearches": [],
     "eventFavourites": [],
     "quickCommands": [
       "/warp home:Warp Home:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0\u003d",

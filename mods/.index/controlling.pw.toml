@@ -1,0 +1,13 @@
+filename = 'Controlling-7.0.0.1.jar'
+name = 'Controlling'
+side = 'client'
+
+[download]
+hash = 'b077f9c70af1f8d4378e906f07393bb5a50c339331e9ad9ac2e7893fa7443af2c2d673c27b257ba47879c550676f308e593847e145f1a19a2b37741cbf00dc6a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xv94TkTM/versions/2n09Nqpv/Controlling-7.0.0.1.jar'
+
+[update.modrinth]
+mod-id = 'xv94TkTM'
+version = '2n09Nqpv'

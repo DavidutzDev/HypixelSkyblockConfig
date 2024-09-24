@@ -2,6 +2,7 @@
 [rooms]
 	room_secrets = 0
 	room_names = 1
+	found_room_secrets = 0
 	color_text = false
 	room_checkmarks = 1
 

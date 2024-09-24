@@ -30,7 +30,7 @@
     "§6§lLEGENDARY"
   ],
   "internalname": "AMMONITE;4",
-  "crafttext": "",
+  "crafttext": "Requires: HotM 4",
   "clickcommand": "",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
@@ -47,7 +47,7 @@
       ],
       "count": 1,
       "overrideOutputId": "AMMONITE;4",
-      "duration": 1036800
+      "duration": 259200
     }
   ]
 }

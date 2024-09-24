@@ -1,0 +1,9 @@
+.mixin.out/
+crash-reports/
+libraries/
+logs/
+saves/
+screenshots/
+server-resource-packs/
+servers.dat
+servers.essential.dat

@@ -4,59 +4,106 @@
     "appable": {},
     "CalMWolfs": {
       "suffix": "§e:)",
-      "spinny": true
+      "spinny": true,
+      "upsideDown": true
+    },
+    "catgirlasuka": {
+      "suffix": "§d§l:3"
     },
     "catgirlseraid": {
       "suffix": "§d:3",
-      "spinny": true
+      "spinny": true,
+      "upsideDown": true
     },
     "cimbraien": {},
-    "Conutik": {},
+    "Conutik": {
+      "suffix": "§c§lツ"
+    },
+    "hijiol": {
+      "suffix": "§c§l:>"
+    },
     "Cuz_Im_Clicks": {},
     "Eisengolem": {},
     "Empa_": {
       "suffix": "§d:3"
     },
     "Erymanthus": {},
+    "EstrogenEnjoyer": {
+      "suffix": "§d:3"
+    },
     "Fix3dll": {},
     "Frost19": {},
+    "Gillsplash": {},
     "hannibal2": {
       "suffix": "§3§l:O"
     },
     "HiZe_": {
-      "suffix": "§d:3"
+      "suffix": "§5§l:3",
+      "spinny": true,
+      "upsideDown": true
+    },
+    "Jordyrat": {
+      "suffix": "§d;3"
     },
     "JTAG": {},
     "Ke5o": {},
-    "lrg89": {},
+    "lrg89": {
+      "suffix": "§Z<3",
+      "upsideDown": true
+    },
     "martimavocado": {},
     "Mikecraft1224": {},
+    "minhperry02": {
+      "suffix": "§9:D"
+    },
     "NetheriteMiner": {},
-    "Obsidianninja11": {},
+    "oBlazin": {
+      "suffix": "§d§l^^"
+    },
+    "Obsidianninja11": {
+      "suffix": "§z(:"
+    },
     "owoLuna": {
       "suffix": "§d:3"
     },
     "oxsss": {},
     "ReyMaratov": {},
+    "RobotHanzo": {
+      "suffix": "§6§l:P"
+    },
+    "Sayonara": {
+      "suffix": "§cc:"
+    },
     "Skirtwearer": {
-      "suffix": "§d:3"
+      "suffix": "§d:3",
+      "spinny": true,
+      "upsideDown": true
     },
     "Skyblock_Lobby": {},
     "SkyHanni": {
       "suffix": "§3§l:O",
       "spinny": true,
+      "upsideDown": true,
       "alt from": "hannibal2"
+    },
+    "Solde": {
+      "suffix": "§b;C"
     },
     "ThatGravyBoat": {
       "suffix": "§d:3",
-      "spinny": true
+      "spinny": true,
+      "upsideDown": true
     },
     "thisiscad": {},
     "Throwpo": {
       "suffix": "§b:§dO",
-      "spinny": true
+      "spinny": true,
+      "upsideDown": true
     },
     "Thunderblade73": {},
+    "Tryp0MC": {
+      "suffix": "§6B)"
+    },
     "Vahvl": {
       "suffix": "§d:3"
     },
@@ -68,6 +115,7 @@
     "Wolfie586": {
       "suffix": "§e:]",
       "spinny": true,
+      "upsideDown": true,
       "alt from": "CalMWolfs"
     },
     "Zickles": {},
@@ -77,22 +125,27 @@
     },
     "Pinpointed": {
       "spinny": true,
+      "upsideDown": true,
       "external_mod": "SBA"
     },
     "Berded": {
       "spinny": true,
+      "upsideDown": true,
       "external_mod": "SBA"
     },
     "Potat_owo": {
       "spinny": true,
+      "upsideDown": true,
       "external_mod": "SBA"
     },
     "Pnda__": {
       "spinny": true,
+      "upsideDown": true,
       "external_mod": "SBA"
     },
     "StopUsingSBE": {
       "spinny": true,
+      "upsideDown": true,
       "external_mod": "SBA"
     }
   }

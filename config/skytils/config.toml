@@ -17,7 +17,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.9.4"
+		last_launched_skytils_version = "1.10.6"
 
 	[general.reparty]
 		override_other_reparty_commands = true
@@ -34,6 +34,7 @@
 	[general.api]
 		fetch_kuudra_prices = false
 		fetch_lowest_bin_prices = true
+		connect_to_skytils_ws_server = true
 
 	[general.hypixel]
 		multiple_party_invites_fix = false
@@ -99,6 +100,7 @@
 		head_display_size = 1.0
 		show_potion_tier = false
 		show_enchanted_book_tier = false
+		show_new_year_cake_year = false
 		stacking_enchant_progress_display = false
 		show_pet_candies = false
 		wither_shield_has_wither_impact = true
@@ -128,12 +130,13 @@
 
 	[miscellaneous.quality_of_life]
 		hide_vanilla_health_display = false
-		container_sell_value = true
+		container_sell_value = false
 		hide_cheap_coins = false
 		hide_jerry_rune = false
 		party_addons = false
 		show_arachne_spawn = false
 		show_lowest_bin_price = true
+		trophy_fish_tracker = false
 		dungeon_pot_lock = 0
 		hide_hunger_display = false
 		include_item_modifiers = true
@@ -202,6 +205,7 @@
 	[slayer.general]
 		use_hits_to_detect_slayer = true
 		carry_mode = 0
+		use_nametag_to_detect_slayer = false
 
 	[slayer.inferno_demonlord]
 		totem_ping = 0
@@ -386,6 +390,7 @@
 		teleport_maze_solver_color = "200,255,0,0"
 		line_to_next_blaze = false
 		line_to_next_blaze_color = "200,255,255,0"
+		three_weirdos_solver_color = "255,255,0,0"
 		trivia_solver = true
 		highest_blaze_color = "200,0,255,0"
 		blaze_solver = true
@@ -398,6 +403,7 @@
 		creeper_beams_solver = true
 		three_weirdos_solver = true
 		tic_tac_toe_solver_color = "204,23,234,99"
+		boulder_solver_color = "255,255,0,0"
 
 [farming]
 
@@ -515,6 +521,9 @@
 		display_gaia_construct_hits = false
 		track_mythological_creatures = false
 		"empty/start_burrow_color" = "255,173,216,230"
+		ping_when_burrow_is_nearby = false
+		"griffin_burrow_estimation_(meow)" = false
+		griffin_burrow_estimation = false
 		broadcast_rare_drop_notifications = false
 		show_griffin_burrows = false
 		mob_burrow_color = "255,173,216,230"

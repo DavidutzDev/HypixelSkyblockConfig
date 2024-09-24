@@ -7,7 +7,7 @@
     "§9§lRARE"
   ],
   "internalname": "TUNGSTEN_PLATE",
-  "crafttext": "",
+  "crafttext": "Requires: Tungsten VI & HotM 7",
   "clickcommand": "viewrecipe",
   "modver": "2.1.1-PRE",
   "infoType": "WIKI_URL",
@@ -20,7 +20,7 @@
       ],
       "count": 1.0,
       "overrideOutputId": "TUNGSTEN_PLATE",
-      "duration": 7200
+      "duration": 10800
     }
   ],
   "info": [

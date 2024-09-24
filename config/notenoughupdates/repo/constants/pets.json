@@ -299,7 +299,7 @@
     "GUARDIAN": "ENCHANTING",
     "GRANDMA_WOLF": "COMBAT",
     "ARMADILLO": "MINING",
-    "BAL": "COMBAT",
+    "BAL": "MINING",
     "GOLDEN_DRAGON": "COMBAT",
     "RAT": "COMBAT",
     "SCATHA": "MINING",
@@ -311,6 +311,10 @@
     "BINGO": "ALL",
     "EERIE": "COMBAT",
     "SLUG": "FARMING",
-    "OWL": "TAMING"
+    "OWL": "TAMING",
+    "GLACITE_GOLEM": "MINING"
+  },
+  "id_to_display_name": {
+    "TYRANNOSAURUS": "T-Rex"
   }
 }

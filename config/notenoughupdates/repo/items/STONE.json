@@ -1,17 +1,18 @@
 {
   "itemid": "minecraft:stone",
   "displayname": "§fStone",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStone\"},ExtraAttributes:{id:\"STONE\"}}",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON BLOCK\"],Name:\"§fStone\"},ExtraAttributes:{id:\"STONE\"}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "§f§lCOMMON BLOCK"
   ],
   "internalname": "STONE",
-  "modver": "1.3-REL",
+  "modver": "",
   "vanilla": true,
   "clickcommand": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Stone"
-  ]
+  ],
+  "crafttext": ""
 }

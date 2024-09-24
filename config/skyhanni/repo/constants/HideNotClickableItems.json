@@ -18,11 +18,11 @@
       "Battle Disc",
       "Birch Sapling",
       "Blaze Powder",
-      "Bundle of Magma Arrows",
       "Cobblestone Slab",
       "Condensed Fermento",
       "Corrupted Fragment",
       "Defuse Kit",
+      "Doubloon of the Family",
       "Enchanted Brown Mushroom",
       "Enchanted Golden Apple",
       "Enchanted Red Mushroom",
@@ -59,6 +59,7 @@
       "Sea Lantern",
       "Spruce Wood Plank",
       "Spruce Wood Slab",
+      "Squid Boots",
       "Stone Brick Slab",
       "Sulphur",
       "Superboom TNT",
@@ -72,7 +73,8 @@
       "Crown of Greed"
     ],
     "startsWith": [
-      "Music Disc"
+      "Music Disc",
+      "Wisp's Ice-Flavored Water I Splash"
     ],
     "endsWith": [
       " Rune I",

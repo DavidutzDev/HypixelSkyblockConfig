@@ -30,5 +30,10 @@
   },
   "kiwi": {
     "hub": []
+  },
+  "lime": {
+    "dungeon_hub": [],
+    "combat_3": [],
+    "hub": []
   }
 }

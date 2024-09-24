@@ -69,7 +69,8 @@
       "divine_gift",
       "tabasco",
       "ultimate_duplex",
-      "vicious"
+      "vicious",
+      "toxophilite"
     ],
     "AXE": [
       "efficiency",
@@ -89,7 +90,9 @@
       "fortune",
       "silk_touch",
       "pristine",
-      "smelting_touch"
+      "smelting_touch",
+      "paleontologist",
+      "ultimate_flowstate"
     ],
     "DRILL": [
       "compact",
@@ -98,7 +101,9 @@
       "fortune",
       "pristine",
       "silk_touch",
-      "smelting_touch"
+      "smelting_touch",
+      "paleontologist",
+      "ultimate_flowstate"
     ],
     "FISHING ROD": [
       "angler",
@@ -220,7 +225,8 @@
       "ultimate_bobbin_time",
       "transylvanian",
       "pesterminator",
-      "ultimate_refrigerate"
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "CHESTPLATE": [
       "protection",
@@ -246,7 +252,8 @@
       "ultimate_bobbin_time",
       "reflection",
       "pesterminator",
-      "ultimate_refrigerate"
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "LEGGINGS": [
       "protection",
@@ -270,7 +277,8 @@
       "ultimate_habanero_tactics",
       "ultimate_bobbin_time",
       "pesterminator",
-      "ultimate_refrigerate"
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "BOOTS": [
       "protection",
@@ -297,7 +305,8 @@
       "ultimate_habanero_tactics",
       "ultimate_bobbin_time",
       "pesterminator",
-      "ultimate_refrigerate"
+      "ultimate_refrigerate",
+      "ice_cold"
     ],
     "LONGSWORD": [
       "bane_of_arthropods",
@@ -391,7 +400,9 @@
       "ultimate_fatal_tempo",
       "tabasco",
       "champion",
-      "divine_gift"
+      "divine_gift",
+      "paleontologist",
+      "ultimate_flowstate"
     ],
     "GLOVES": [
       "cayenne",
@@ -418,6 +429,33 @@
       "cayenne",
       "prosperity",
       "green_thumb"
+    ],
+    "CARNIVAL MASK": [
+      "protection",
+      "blast_protection",
+      "fire_protection",
+      "projectile_protection",
+      "growth",
+      "rejuvenate",
+      "respite",
+      "thorns",
+      "counter_strike",
+      "true_protection",
+      "ultimate_bank",
+      "ultimate_last_stand",
+      "ultimate_legion",
+      "ultimate_no_pain_no_gain",
+      "ultimate_wisdom",
+      "hardened_mana",
+      "strong_mana",
+      "mana_vampire",
+      "ferocious_mana",
+      "ultimate_habanero_tactics",
+      "ultimate_bobbin_time",
+      "reflection",
+      "pesterminator",
+      "ultimate_refrigerate",
+      "ice_cold"
     ]
   },
   "enchant_pools": [
@@ -450,7 +488,8 @@
       "ultimate_flash",
       "ultimate_habanero_tactics",
       "ultimate_bobbin_time",
-      "ultimate_refrigerate"
+      "ultimate_refrigerate",
+      "ultimate_flowstate"
     ],
     [
       "protection",
@@ -856,7 +895,7 @@
     ],
     "flame": [
       25,
-      0
+      50
     ],
     "infinite_quiver": [
       10,
@@ -1360,6 +1399,23 @@
       18,
       23
     ],
+    "paleontologist": [
+      23,
+      45,
+      91,
+      136,
+      179
+    ],
+    "ice_cold": [
+      27,
+      41,
+      55,
+      68,
+      82
+    ],
+    "toxophilite": [
+      25
+    ],
     "one_for_all": [
       50
     ],
@@ -1493,12 +1549,17 @@
       250,
       300
     ],
+    "flowstate": [
+      50,
+      100,
+      150
+    ],
     "XP_BOTTLE": [
       0
     ]
   },
   "max_xp_table_levels": {
-    "sharpness" : 5,
+    "sharpness": 5,
     "smite": 5,
     "bane_of_arthropods": 5,
     "looting": 3,
@@ -1537,7 +1598,18 @@
     "experience": 3,
     "efficiency": 5,
     "harvesting": 5,
-    "piscary": 5
+    "piscary": 5,
+    "spiked_hook": 5,
+    "caster": 5,
+    "frail": 5,
+    "angler": 5,
+    "chance": 3,
+    "power": 5,
+    "infinite_quiver": 5,
+    "lure": 5,
+    "magnet": 5,
+    "luck_of_the_sea": 5,
+    "scavenger": 3
   },
   "enchant_mapping_id": [
     "prosecute",
@@ -1545,7 +1617,7 @@
     "turbo_cocoa",
     "turbo_cacti"
   ],
-  "enchant_mapping_item" : [
+  "enchant_mapping_item": [
     "PROSECUTE",
     "aiming",
     "turbo_coco",
