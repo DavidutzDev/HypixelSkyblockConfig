@@ -94,7 +94,7 @@
           "§7into §fTitanium Ore§7."
         ]
       },
-      "pickobulus": {
+      "pickaxe_toss": {
         "name": "Pickobulus",
         "x": 5,
         "y": 8,
@@ -153,10 +153,10 @@
         "powder": "MITHRIL",
         "item": "(npi level0 maxLevel)",
         "cost": "(pow (+ level 2) 4)",
-        "decrease": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
+        "stat": "(if (lt level 20) (+ 10 (* level 0.5)) 30)",
         "lore": [
           "§7Decreases the time it takes to forge",
-          "§7by §a{decrease}%§7."
+          "§7by §a{stat}%§7."
         ]
       },
       "daily_effect": {
@@ -192,7 +192,7 @@
         "cost": "(pow (+ level 2) 4)",
         "stat": "(* level 5)",
         "lore": [
-          "§7Grants §6+5☘ Ore Fortune§7."
+          "§7Grants §6+{stat}☘ Ore Fortune§7."
         ]
       },
       "professional": {
@@ -258,10 +258,13 @@
         "item": "(npi level0 maxLevel)",
         "cost": "0",
         "lore": [
-          "§7Grants §a+100 §6⸕ Mining Speed §7and §6☘",
-          "§6Mining Fortune §7as well as §a+2 base",
-          "§apowder §7for the first §e2,500 §7ores you",
-          "§7mine in a day."
+          "§7§7Grants the following buffs for the",
+          "§7first §a2,500 §dGemstones§7 you mine each",
+          "§7day.",
+          " ",
+          " §8■ §d3x Gemstone Powder",
+          " §8■ §6+150☘ Gemstone Fortune",
+          " §8■ §6+250⸕ Mining Speed"
         ]
       },
       "daily_grind": {
@@ -369,11 +372,11 @@
           "§7rare occurrences by §a§a{stat}%§7 for §a30s§7.",
           "",
           "§7Rare occurrences include:",
-          "§7§8 ■ §6Golden Goblins.",
-          "§7§8 ■ §5Fallen Stars.",
-          "§7§8 ■ §6Powder Ghasts.",
-          "§7§8 ■ §6Worms.",
-          "§7§8 ■ §bGlacite Mineshafts.",
+          "§7§8 ■ §6Golden Goblins",
+          "§7§8 ■ §5Fallen Stars",
+          "§7§8 ■ §6Powder Ghasts",
+          "§7§8 ■ §6Worms",
+          "§7§8 ■ §bGlacite Mineshafts",
           "§8Cooldown: §a{statCooldown}s"
         ]
       },
@@ -468,7 +471,7 @@
           "§6Pickaxe Ability: Maniac Miner",
           "§7Grants §2+1Ⓟ Breaking Power§7 and a",
           "§7stack of §6+{stat}☘ Mining Fortune §8(caps",
-          "§8at 1000) §7 per block broken for §a{statDuration}s§7.",
+          "§8at 1000) §7per block broken for §a{statDuration}s§7.",
           "§7Each block broken consumes §b20 Mana§7.",
           "§8Cooldown: §a120s"
         ]
@@ -569,7 +572,7 @@
         ]
       },
       "steady_hand": {
-        "name": "§eSteady Hand",
+        "name": "Steady Hand",
         "x": 3,
         "y": 2,
         "maxLevel": 100,

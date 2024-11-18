@@ -1,288 +1,254 @@
 {
   "bingo_tips": {
+    "Poseidon (Community Goal)": {
+      "difficulty": "Easy",
+      "note": [
+        "Summon Sea Creatures"
+      ],
+      "guide": [
+        "Use the best fishing rod, bait and armor that you",
+        "have access to and fish in The Park during rain.",
+        "Recommended is a Chum Rod with Angler Armor and Fish Bait."
+      ]
+    },
     "Skilled (Community Goal)": {
       "difficulty": "Easy",
       "note": [
-        "Gain Taming experience"
+        "Gain Enchanting experience"
       ],
       "guide": [
-        "You will passively get progress",
-        "in this by just having a pet",
-        "equipped all time. Even a",
-        "Level 100 pet works for this."
+        "Do your daily experiments in the Experimentation Table,",
+        "always do the highest tier you can."
       ]
     },
-    "A Hard Day's Work (Community Goal)": {
+    "Scavenger (Community Goal)": {
       "difficulty": "Easy",
       "note": [
-        "Collect Jacobs Tickets from contests"
+        "Gain coins from the Scavenger Enchantment"
       ],
       "guide": [
-        "To get easy progress in this do",
-        "contests like Wheat, Potato, Carrot",
-        "or Mushroom as those are easy",
-        "Bronze or Silver Medals to get."
-      ]
-    },
-    "Clown Collab (Community Goal)": {
-      "difficulty": "Medium",
-      "note": [
-        "Defeat Bonzo"
-      ],
-      "guide": [
-        "For this you will need Combat 15 and",
-        "completion of the previous floor.",
-        "Going for this with your friends is",
-        "probably the best option or you",
-        "could use party finder."
-      ]
-    },
-    "Revenant Horror (Community Goal)": {
-      "difficulty": "Easy",
-      "note": [
-        "Kill T2 Zombie Bosses"
-      ],
-      "guide": [
-        "Once you acquire a Void Sword and a decent",
-        "armor like Ender or Glacite this should be",
-        "fairly easy to do. You might get a little",
-        "progress in this from doing the Slayer Goal."
+        "Kill mobs with a weapon that you have",
+        "Scavenger 3+ applied to."
       ]
     },
     "Operation: Ore (Community Goal)": {
       "difficulty": "Easy",
       "note": [
-        "Mine Ores"
+        "Break Ore Blocks"
       ],
       "guide": [
-        "You will get passive progress for this",
-        "while going for other goals. If you want",
-        "to specifically go for this, use a",
-        "Cobblestone Generator on your island."
+        "Mine normal or Pure Ores in the Dwarven Mines.",
+        "You will gain passive progress in this if you",
+        "manual the Gold Collector Goal."
       ]
     },
-    "Slayer": {
+    "Enderman Slayer (Community Goal)": {
       "difficulty": "Easy",
       "note": [
-        "Reach Slayer Level 2"
+        "Kill Endermen"
       ],
       "guide": [
-        "Do 3 Tier 1 Revenant Horror Bosses ",
-        "and claim the rewards by talking to Maddox."
+        "You will need Combat 12 for this.",
+        "Getting a Void Sword and Ender Armor",
+        "will make progress in this easier."
       ]
     },
-    "Brewer": {
-      "difficulty": "Easy",
+    "Fisherman": {
+      "difficulty": "Medium",
       "note": [
-        "Obtain Alchemy Level 5"
+        "Wear full Angler Armor"
       ],
       "guide": [
-        "Use Enchanted Sugar that you get from",
-        "killing pests in The Garden or from",
-        "farming some Sugar Cane to brew",
-        "Speed Potions (you will also need",
-        "some nether warts for Awkward Potions first)"
-      ]
-    },
-    "Iron Ingot Collector": {
-      "difficulty": "Hard",
-      "note": [
-        "100k Iron Collection"
-      ],
-      "guide": [
-        "Mine 50 Iron in the Gold Mine",
-        "to unlock Iron Minions. Then buy",
-        "Iron from the Mine Merchant in The Hub",
-        "and Iron Forger in the Gold Mine and",
-        "craft as many minions as you can.",
-        "Give them the best fuel and storage you",
-        "have access to and don't forget Auto Smelters.",
-        "Remember to collect in time."
-      ]
-    },
-    "Fashionable": {
-      "difficulty": "Easy",
-      "note": [
-        "7 Armor Sets"
-      ],
-      "guide": [
-        "Craft Leather, Iron, Gold, Diamond, Mushroom",
-        "and Leaflet Armor. Grind Glacite Armor",
-        "for the goal I've got Chills!",
-        "and equip them all in one lobby."
+        "This requires Raw Fish Collection 5.",
+        "You should place down fishing minions",
+        "with medium storages and fuel to help with this."
       ]
     },
     "Skill Average": {
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "note": [
-        "Skill Average of 8"
+        "Skill Average of 14"
       ],
       "guide": [
         "To help with this, try to make bigger crafts",
         "by hand for Carpentry levels.",
+        "Use the gold from the Collection goal",
+        "to brew Absorption potions.",
         "Also do your daily experiments and make sure",
         "to have a pet active at all times",
         "(any pet works, even level 100)."
       ]
     },
-    "High Score!": {
+    "Minion Machine": {
       "difficulty": "Medium",
       "note": [
-        "230+ Score in Floor 1"
+        "40 unique Minions"
       ],
       "guide": [
-        "This requires Catacombs Level 1 and ",
-        "a completion of the previous floor.",
-        "You may need help from party finder",
-        "or friends for this."
+        "Craft some easy minions while also getting",
+        "those that will help with this Bingo.",
+        "Use NPC shops to buy materials for easy crafts."
       ]
     },
-    "Obsidian Treasure": {
+    "Lapis Warrior": {
       "difficulty": "Medium",
       "note": [
-        "Open an Obsidian Dungeon Chest"
+        "Wear full Lapis Armor"
       ],
       "guide": [
-        "Save your coins from Meiser and ideally",
-        "you get a score of 270+ in your run for",
-        "High Score! You may need more coins than",
-        "250k if you do drop rarer loot.",
-        "Remember you can open chests at Croesus",
-        "in the Dungeon Hub up to 48h after the run."
+        "Optimally you want to use a weapon with",
+        "Luck 5+ and Looting 3+ and aim for",
+        "good magic find. Grab the Century Cakes for",
+        "+1 Magic Find for 2 days."
       ]
     },
-    "Bone Collector": {
+    "Lumberjack": {
       "difficulty": "Hard",
       "note": [
-        "47.5k Bone Collection"
-      ],
-      "guide": [
-        "Unlock Skeleton Minions by killing skeletons you",
-        "run into along your way. Then buy",
-        "Bones from the Adventurer in The Hub",
-        "and craft as many minions as you can.",
-        "Give them the best fuel and storage you",
-        "have access to.",
-        "Remember to collect in time."
-      ]
-    },
-    "Podium Position": {
-      "difficulty": "Easy",
-      "note": [
-        "Get Bronze or higher in a contest"
-      ],
-      "guide": [
-        "For this you will need Farming 10.",
-        "Your best options for this will probably be",
-        "Wheat/Potato/Carrot in the Garden or Mushroom",
-        "if you use an Efficiency 5 Silk Touch Gold Axe",
-        "in the Desert."
-      ]
-    },
-    "Oak Wood Collector": {
-      "difficulty": "Hard",
-      "note": [
-        "100k Oak Wood collection"
+        "Foraging 20"
       ],
       "guide": [
         "Optimal tool:",
         "Golden Axe with Efficiency 5",
-        "Reforges: Double-Bit or Lush",
+        "Reforges: Lumberjack's or Moil",
         "Get Haste 3 from a splash to instamine wood",
-        "Forage in the Hub.",
-        "Place as many minions as you can,",
-        "give them a medium storage and the best fuel",
-        "you can. Collect them in time."
+        "You might want to grab the Bee Mask from Carnival",
+        "while its still active."
+      ]
+    },
+    "Gold Ingot Collector": {
+      "difficulty": "Medium",
+      "note": [
+        "40k Gold Collection"
+      ],
+      "guide": [
+        "Use the best pickaxe you have access to",
+        "and enchant it. Then mine Gold in the",
+        "Dwarven Mines. The Ability Pickobolus unlocked",
+        "at Heart of the Mountain 3 might be a decent help."
+      ]
+    },
+    "Battle-Ready": {
+      "difficulty": "Medium",
+      "note": [
+        "Wear 4 pieces of Equipment"
+      ],
+      "guide":  [
+        "Wear a full set of Ender equipment. Those drop from:",
+        "Endermen (0.5% chance), Ender Nodes (3.05% - 3.32% chance),",
+        "Obsidian Defenders (1% chance) and Watchers (1% chance).",
+        "You can find these Mobs in the Dragon's Nest in the End."
+      ]
+    },
+    "Trouble is Brewing...": {
+      "difficulty": "Easy",
+      "note": [
+        "Brew any t4 potion"
+      ],
+      "guide": [
+        "Brew an Absorption IV potion",
+        "with the Enchanted Gold from the Collector Goal",
+        "and combine it with a Glowstone.",
+        "You can get that Glowstone by buying one block",
+        "from the Builder and breaking it on your island."
+      ]
+    },
+    "Exterminator": {
+      "difficulty": "Hard",
+      "note": [
+        "Kill 10k mobs"
+      ],
+      "guide": [
+        "Kill farm animals in the Barn with a Cleaver",
+        "with Cleave 5 and Sharpness 5",
+        "or spiders in Arachne's Burrow",
+        "in the Spider's Den with a Dreadlord Sword.",
+        "You can also kill Endermen in The End to",
+        "get progress towards the",
+        "Enderman Slayer Community Goal."
+      ]
+    },
+    "Now We're In Business": {
+      "difficulty": "Easy",
+      "note": [
+        "Craft a Diamond Spreading"
+      ],
+      "guide": [
+        "This unlocks at 5k Diamond Collection. Use Pure Ores",
+        "in the Dwarven Mines for this. Craft it with",
+        "1 Enchanted Diamond and 8 Vines (costs 40 Jungle Leaves,",
+        "requires Jungle Wood Collection 4 to unlock it in /trades.)"
       ]
     },
     "Strongman": {
       "difficulty": "Medium",
       "note": [
-        "140 strength"
+        "120 strength"
       ],
       "guide": [
         "Get yourself a splash, equip a Bingo Pet",
         "and get the cake buff by eating the cakes",
-        "on owocato's, xMeru's or prtl's island.",
+        "on nightlibra's, skyerzz's or prtl's island.",
         "If this doesn't finish it, get a Void Sword (200k) in the End",
         "and hold it while some Ender Armor and/or Equipment."
       ]
     },
-    "Healthy": {
+    "Collecting Data": {
       "difficulty": "Easy",
       "note": [
-        "750 Health"
+        "Bestiary Milestone 6"
       ],
       "guide": [
-        "Wear armor enchanted with Growth 5 ",
-        "(Enchanting Level 5), preferably Ender Armor",
-        "while you're in The End or Mushroom Armor",
-        "during the night.",
-        "Applying Growth 5 costs 50 Levels each.",
-        "If you still struggle, reforge your",
-        "armor to Titanic."
+        "You will most likely get this passively.",
+        "Use /be ingame to view your progress once you",
+        "talked to Bramass Beastslayer in The Spiders Den."
       ]
     },
-    "I've got Chills!": {
+    "Fairy Finder": {
+      "difficulty": "Easy",
+      "note": [
+        "Find 10 Fairy Souls"
+      ],
+      "guide": [
+        "Collect those you run along while doing other goals.",
+        "If you have trouble check TimeDeo's fairy soul tutorial",
+        "on YouTube or use /neusouls on."
+      ]
+    },
+    "Carry-On": {
+      "difficulty": "Easy",
+      "note": [
+        "Craft a Small Backpack"
+      ],
+      "guide": [
+        "You'll unlock this recipe passively",
+        "(250 leather collection)",
+        "if you chose to do Exterminator in Barn.",
+        "Craft it with 80 Leather.",
+        "You can also use Cow Minions for this."
+      ]
+    },
+    "Hot Trails": {
+      "difficulty": "Easy",
+      "note": [
+        "Obtain a Campfire Cultist Badge I"
+      ],
+      "guide": [
+        "Visit the Campfire in The Park and do",
+        "the first Trial of Fire. (10 dps over 10s)"
+      ]
+    },
+    "Taking Flight": {
       "difficulty": "Medium",
       "note": [
-        "Wear a full set of Glacite"
+        "Consume a Magical Mushroom Soup"
       ],
       "guide": [
-        "You will need Mining 12 for this as you",
-        "need to enter the Dwarven Mines for this.",
-        "Remember that Glacite Walkers take more",
-        "damage from pickaxes."
-      ]
-    },
-    "Dirty Reforger": {
-      "difficulty": "Easy",
-      "note": [
-        "Apply the Dirty Reforge"
-      ],
-      "guide": [
-        "Buy a Dirt Bottle (100k) from the Smithmonger",
-        "in the Hub and reforge a weapon with it.",
-        "§4Make sure to NOT shift-click it out",
-        "§4of the menu after applying!"
-      ]
-    },
-    "Collector": {
-      "difficulty": "Easy",
-      "note": [
-        "7 Collections to Tier 7"
-      ],
-      "guide": [
-        "You will get some progress for this",
-        "by working on other goals.",
-        "The easiest to go for are:",
-        "Mushroom, Oak Wood, Bone,",
-        "Sand, Wheat, Iron and Seeds."
-      ]
-    },
-    "Critical": {
-      "difficulty": "Easy",
-      "note": [
-        "Reach 100 Crit Damage"
-      ],
-      "guide": [
-        "Reforge your Void Sword to Sharp",
-        "at the Blacksmith in the Hub,",
-        "or enchant any weapon with Critical 5",
-        "(costs 50 Levels)."
-      ]
-    },
-    "Rock Solid": {
-      "difficulty": "Medium",
-      "note": [
-        "Equip an Umcommon+ Rock Pet"
-      ],
-      "guide": [
-        "Get the common Rock from mining",
-        "2.5k Ores and hand it to Kat in The Hub",
-        "(takes a day and 100k coins) or mine",
-        "5k more Ores to get the uncommon Rock.",
-        "Remember to equip it!"
+        "Farm Mushroom Blocks in the Desert",
+        "with an Efficiency 5 Silk Touch 1 Gold Axe.",
+        "Obtain the needed Glowstone by buying a",
+        "Glowstone Block from the Builder and breaking",
+        "it on your island."
       ]
     },
     "Meiser": {
@@ -297,34 +263,45 @@
         "you get in the Bank :)"
       ]
     },
-    "Pet Hoarder": {
-      "difficulty": "Medium",
+    "Critical": {
+      "difficulty": "Easy",
       "note": [
-        "Obtain 12 unique pets"
+        "Reach 100% Crit Damage"
       ],
       "guide": [
-        "§nNo eggs:§r",
-        "Bingo, Endermen, Grandma Wolf, Armadillo,",
-        "Squid, Guardian, Bee, Dolphin, Reindeer,",
-        "Rock, Tarantula, Owl and Zoo",
-        "§nEggs:§r",
-        "Jerry, Silverfish, Pig, Rabbit, Endermite and Bat",
-        "If you do eggs you will need 2.5k Chicken Collection",
-        "and you'll want a Chicken Minion that can create more",
-        "Enchanted Eggs for you once you put your first one in."
+        "Reforge your Void Sword to Sharp",
+        "at the Blacksmith in the Hub or",
+        "enchant any weapon with Critical 5 (50 Levels)."
       ]
     },
-    "Ender Menace": {
+    "Wheat Collector": {
       "difficulty": "Medium",
       "note": [
-        "Kill 10 Endermen in 8s"
+        "95k Wheat collection"
       ],
       "guide": [
-        "Hit 10 Endermen in The End",
-        "so they follow you, then kill them",
-        "all as quickly as you can.",
-        "You most likely want to use Ender Armor",
-        "and a Void Sword for this."
+        "Optimal tool:",
+        "Advanced Gardening Hoe (25 copper)",
+        "Make a full plot of Wheat (7896 seeds needed)",
+        "in The Garden (SkyBlock Level 5)",
+        "Get the seeds to plant from The Barn",
+        "or from the farm area in The Hub."
+      ]
+    },
+    "Lily Pad Collector": {
+      "difficulty": "Hard",
+      "note": [
+        "1.5k Lily Pad Collection"
+      ],
+      "guide": [
+        "Use the best fishing rod, bait and armor that you",
+        "have access to and fish in The Park during rain.",
+        "Recommended is a Chum Rod with Angler Armor and Fish Bait.",
+        "Make sure to have Looting 3+ applied to your",
+        "weapon and rod.",
+        "You can lootshare bigger mobs like Nutcrackers on",
+        "the Winter Island for this too.",
+        "§cAsk before you randomly hit peoples mobs."
       ]
     }
   }

@@ -52,7 +52,8 @@
       "display": {
         "alignment": {
           "horizontalAlignment": "DONT_ALIGN",
-          "verticalAlignment": "DONT_ALIGN"
+          "verticalAlignment": "DONT_ALIGN",
+          "margin": 0
         },
         "arrow": {
           "arrowAmountDisplay": "NUMBER",
@@ -119,15 +120,20 @@
         "titleAndFooter": {
           "alignTitleAndFooter": "CENTER",
           "customTitle": "\u00266\u0026lSKYBLOCK",
-          "useHypixelTitleAnimation": false,
+          "useCustomTitle": true,
+          "useCustomTitleOutsideSkyBlock": false,
           "customFooter": "\u0026ewww.hypixel.net"
         },
         "hideVanillaScoreboard": true,
         "displayNumbersFirst": false,
+        "hideCoinsDifference": false,
+        "useCustomLines": true,
         "showUnclaimedBits": false,
         "showMaxIslandPlayers": true,
         "powderDisplay": "AVAILABLE",
         "numberFormat": "LONG",
+        "skyblockTime24hFormat": false,
+        "skyblockTimeExactMinutes": true,
         "lineSpacing": 10,
         "cacheScoreboardOnIslandSwitch": false
       },
@@ -143,7 +149,8 @@
           "colorTop": "0:255:175:89:255",
           "colorBottom": "0:255:127:237:255"
         },
-        "useCustomBackgroundImage": false
+        "useCustomBackgroundImage": false,
+        "customBackgroundImageOpacity": 100
       },
       "informationFiltering": {
         "hideEmptyLines": true,
@@ -153,12 +160,13 @@
       },
       "unknownLinesWarning": true,
       "position": {
-        "x": -96,
-        "y": 81,
+        "x": -112,
+        "y": 79,
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "chroma": {
@@ -197,7 +205,21 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
+      },
+      "showOutsideSkyblock": false
+    },
+    "xpBar": {
+      "enabled": false,
+      "position": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": false,
+        "ignoreCustomScale": false
       },
       "showOutsideSkyblock": false
     },
@@ -221,8 +243,195 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
+    },
+    "tabWidget": {
+      "enabled": false,
+      "display": [],
+      "displayPositions": [
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        }
+      ]
     },
     "inGameDate": {
       "enabled": false,
@@ -232,7 +441,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "useScoreboard": true,
       "includeSunMoon": true,
@@ -247,7 +457,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": false
+      "centerY": false,
+      "ignoreCustomScale": false
     },
     "realTime": false,
     "realTimeFormatToggle": false,
@@ -257,7 +468,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "cosmetic": {
       "followingLine": {
@@ -284,7 +496,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "configButtonOnPause": true
   },
@@ -298,7 +511,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "priceSource": "BAZAAR_INSTANT_SELL"
     },
@@ -314,7 +528,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "shoppingList": {
@@ -325,7 +540,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "onlyWhenClose": false,
         "inBazaarAlley": true,
@@ -398,7 +614,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "acceptHotkey": 0,
@@ -440,7 +657,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "next": {
         "bestDisplay": false,
@@ -456,7 +674,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "mushroomPetPerk": {
@@ -473,7 +692,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       }
     },
@@ -500,7 +720,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "customSpeed": {
         "wheat": 93.0,
@@ -520,7 +741,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "farmingLane": {
@@ -542,9 +764,11 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
-      "cornerWaypoints": false
+      "cornerWaypoints": false,
+      "ignoredCrops": []
     },
     "gardenLevels": {
       "display": false,
@@ -556,7 +780,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "eliteFarmingWeights": {
@@ -567,7 +792,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "leaderboard": true,
       "overtakeETA": false,
@@ -587,7 +813,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "moneyPerHours": {
@@ -615,7 +842,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "nextJacobContests": {
@@ -645,7 +873,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "farmingArmorDrop": {
@@ -657,7 +886,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "anitaShop": {
@@ -669,7 +899,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "composters": {
@@ -682,7 +913,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "overlayFuelExtrasPos": {
         "x": -320,
@@ -690,7 +922,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "displayEnabled": false,
       "displayOutsideGarden": false,
@@ -711,7 +944,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "outsideGardenPos": {
         "x": -363,
@@ -719,7 +953,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "pests": {
@@ -739,8 +974,10 @@
           "scale": 1.3,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
+        "noPestTitle": false,
         "teleportHotkey": -96,
         "alwaysTp": false,
         "backToGarden": false
@@ -749,6 +986,7 @@
         "enabled": true,
         "hideParticles": true,
         "drawLine": true,
+        "showMiddle": false,
         "showForSeconds": 15
       },
       "pestTimer": {
@@ -760,7 +998,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "pestProfitTacker": {
@@ -773,7 +1012,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "spray": {
@@ -785,7 +1025,8 @@
           "scale": 2.3,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "displayEnabled": true,
         "showNotSprayed": false,
@@ -796,7 +1037,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "stereoHarmony": {
@@ -811,7 +1053,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       }
     },
@@ -823,7 +1066,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "tooltipTweak": {
@@ -846,7 +1090,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "posOutside": {
         "x": 445,
@@ -854,7 +1099,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "sensitivityReducerConfig": {
@@ -870,7 +1116,8 @@
         "scale": 0.8,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "cropStartLocation": {
@@ -907,7 +1154,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": true,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "positionOutside": {
         "x": 20,
@@ -915,13 +1163,13 @@
         "scale": 1.0,
         "center": false,
         "centerX": true,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "plotPrice": true,
     "fungiCutterWarn": true,
     "burrowingSporesNotification": true,
-    "wildStrawberryDyeNotification": true,
     "farmingFortuneForContest": true,
     "farmingFortuneForContestPos": {
       "x": 180,
@@ -929,7 +1177,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "jacobContestTimes": true,
     "jacobContestCustomBps": true,
@@ -940,7 +1189,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "jacobContestSummary": true,
     "contestPersonalBestIncreaseFF": true,
@@ -950,7 +1200,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "plotBorders": true,
     "copyMilestoneData": true,
@@ -961,7 +1212,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     }
   },
   "crimsonIsle": {
@@ -987,7 +1239,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "nextResetCooldown": false,
       "nextResetCooldownPos": {
@@ -996,7 +1249,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "reputationHelper": {
@@ -1010,7 +1264,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "showLocation": "ONLY_HOTKEY"
     },
@@ -1021,6 +1276,16 @@
       "line": true,
       "lineColor": "0:230:163:38:255"
     },
+    "minibossRespawnTimer": false,
+    "minibossTimerPosition": {
+      "x": 20,
+      "y": 50,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": false,
+      "ignoreCustomScale": false
+    },
     "pabloHelper": false,
     "volcanoExplosivity": false,
     "positionVolcano": {
@@ -1029,7 +1294,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "showDojoRankDisplay": false,
     "dojoRankDisplayPosition": {
@@ -1038,7 +1304,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     }
   },
   "rift": {
@@ -1052,8 +1319,10 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
-      }
+        "centerY": true,
+        "ignoreCustomScale": false
+      },
+      "nametag": true
     },
     "cruxTalisman": {
       "enabled": false,
@@ -1065,12 +1334,15 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "enigmaSoulWaypoints": {
       "enabled": true,
-      "color": "0:120:13:49:255"
+      "showPathFinder": true,
+      "color": "0:120:13:49:255",
+      "showButtonsHelper": true
     },
     "area": {
       "wyldWoods": {
@@ -1085,11 +1357,6 @@
         }
       },
       "westVillage": {
-        "hacking": {
-          "solver": true,
-          "colour": true,
-          "waypoints": true
-        },
         "verminTracker": {
           "enabled": true,
           "showOutsideWestVillage": false,
@@ -1101,12 +1368,25 @@
             "scale": 1.0,
             "center": false,
             "centerX": false,
-            "centerY": true
+            "centerY": true,
+            "ignoreCustomScale": false
           }
         },
         "verminHighlight": {
           "enabled": true,
           "color": "0:60:0:0:255"
+        },
+        "gunthersRace": {
+          "enabled": true,
+          "lookAhead": 3,
+          "rainbowColor": true,
+          "monochromeColor": "0:60:0:0:255",
+          "hidePlayers": false
+        },
+        "hacking": {
+          "solver": true,
+          "colour": true,
+          "waypoints": true
         }
       },
       "dreadfarm": {
@@ -1120,7 +1400,8 @@
         "wiltedBerberis": {
           "enabled": true,
           "onlyOnFarmland": false,
-          "hideparticles": false
+          "hideParticles": false,
+          "muteOthersSounds": true
         }
       },
       "mirrorverse": {
@@ -1130,6 +1411,12 @@
           "rainbowColor": true,
           "monochromeColor": "0:60:0:0:255",
           "hidePlayers": false
+        },
+        "craftingRoom": {
+          "enabled": true,
+          "showName": true,
+          "showHealth": true,
+          "hidePlayers": true
         },
         "upsideDownParkour": {
           "enabled": true,
@@ -1165,7 +1452,8 @@
             "scale": 1.0,
             "center": false,
             "centerX": false,
-            "centerY": true
+            "centerY": true,
+            "ignoreCustomScale": false
           }
         },
         "tubulatorConfig": {
@@ -1187,7 +1475,8 @@
             "scale": 1.0,
             "center": false,
             "centerX": false,
-            "centerY": false
+            "centerY": false,
+            "ignoreCustomScale": false
           }
         },
         "defenseBlockConfig": {
@@ -1197,7 +1486,8 @@
         },
         "livingCaveLivingMetalConfig": {
           "enabled": true,
-          "hideParticles": false
+          "hideParticles": false,
+          "color": "0:255:85:255:255"
         }
       },
       "colosseum": {
@@ -1216,6 +1506,7 @@
     "motes": {
       "showPrice": true,
       "burgerStacks": 0,
+      "motesPerSession": true,
       "inventoryValue": {
         "enabled": true,
         "formatType": "SHORT",
@@ -1225,7 +1516,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       }
     },
@@ -1247,7 +1539,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       }
     },
     "highlightGuide": true,
@@ -1262,7 +1555,10 @@
         "tooltip": true,
         "duplicateHider": false,
         "bronzeHider": false,
-        "silverHider": false
+        "silverHider": false,
+        "goldAlert": false,
+        "diamondAlert": false,
+        "playSound": true
       },
       "display": {
         "enabled": false,
@@ -1291,7 +1587,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "geyserOptions": {
@@ -1305,6 +1602,23 @@
         "boxType": "WIREFRAME",
         "boxColor": "0:102:255:216:0",
         "onlyWithRods": true
+      },
+      "goldenFishTimer": {
+        "enabled": true,
+        "nametag": true,
+        "highlight": true,
+        "throwRodWarning": false,
+        "showHead": true,
+        "throwRodWarningTime": 20,
+        "position": {
+          "x": 50,
+          "y": 80,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        }
       },
       "filletTooltip": true,
       "odgerLocation": true,
@@ -1331,7 +1645,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "chumBucketHider": {
@@ -1353,7 +1668,8 @@
         "scale": 3.4,
         "center": true,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "fishingBaitWarnings": {
@@ -1375,7 +1691,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "showWhenPickup": true
     },
@@ -1392,7 +1709,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "seaCreatureTracker": {
@@ -1403,7 +1721,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "showPercentage": false,
       "hideChat": false,
@@ -1416,7 +1735,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "shortenFishingMessage": false,
     "compactDoubleHook": true
@@ -1435,7 +1755,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "hotm": {
@@ -1452,7 +1773,6 @@
       "textFormat": [
         "TOTAL_CHESTS",
         "DOUBLE_POWDER",
-        "MITHRIL_POWDER",
         "GEMSTONE_POWDER",
         "SPACER_1",
         "DIAMOND_ESSENCE",
@@ -1474,7 +1794,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "kingTalisman": {
@@ -1486,7 +1807,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "deepCavernsGuide": {
@@ -1514,7 +1836,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "profitTracker": {
@@ -1527,8 +1850,13 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
+      },
+      "tooltipHider": {
+        "hideDirt": true,
+        "hideEverything": false
       },
       "profitPerExcavation": false,
       "glacitePowderStack": false
@@ -1542,6 +1870,19 @@
       "corpseLocator": {
         "enabled": false,
         "autoSendLocation": false
+      },
+      "corpseTracker": {
+        "enabled": false,
+        "onlyInMineshaft": false,
+        "position": {
+          "x": -274,
+          "y": 0,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
       },
       "shareWaypointLocation": 0
     },
@@ -1567,7 +1908,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       },
       "autoCommission": false,
       "campfireKey": 0,
@@ -1606,7 +1948,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "highlightCommissionMobs": false,
@@ -1681,7 +2024,7 @@
           "base": "  \u00266Bestiary %display%: \u0026b%value%",
           "openMenu": "§cOpen Bestiary Menu !",
           "maxed": "%currentKill% (\u0026c\u0026lMaxed!)",
-          "showMax_progress": "%currentKill%/250k (%percentNumber%%)",
+          "showMax_progress": "%currentKill%/100k (%percentNumber%%)",
           "progress": "%currentKill%/%killNeeded%"
         },
         "xpHourFormatting": {
@@ -1715,7 +2058,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "quiverConfig": {
@@ -1727,7 +2071,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": false
+          "centerY": false,
+          "ignoreCustomScale": false
         },
         "showIcon": true,
         "whenToShow": "ONLY_BOW_HAND"
@@ -1744,7 +2089,8 @@
         "scale": 1.9,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "summonings": {
@@ -1756,7 +2102,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "summoningMobHideNametag": false,
       "summoningMobColored": false,
@@ -1772,8 +2119,10 @@
       "corruptedMobHighlight": false,
       "arachneBossHighlighter": true,
       "lineToArachne": false,
+      "lineToArachneWidth": 5,
       "areaBossRespawnTimer": false,
       "showArachneSpawnTimer": true,
+      "arachneKillTimer": true,
       "endermanTeleportationHider": true,
       "hideNameTagArachneMinis": true
     },
@@ -1789,7 +2138,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "enderNodeTracker": {
@@ -1819,7 +2169,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "ferocityDisplay": {
@@ -1830,7 +2181,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "flare": {
@@ -1847,10 +2199,37 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "showManaBuff": false,
       "hideParticles": false
+    },
+    "broodmother": {
+      "countdown": true,
+      "alertOnSpawn": false,
+      "spawnAlert": {
+        "alertSound": "note.pling",
+        "pitch": 1.0,
+        "repeatSound": 20,
+        "text": "\u00264Broodmother has spawned!"
+      },
+      "imminentWarning": false,
+      "stages": [
+        "SLAIN",
+        "ALIVE"
+      ],
+      "stageOnJoin": false,
+      "hideSlainWhenNearby": false,
+      "countdownPosition": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "hideDamageSplash": false
   },
@@ -1882,7 +2261,8 @@
           "scale": 4.4,
           "center": true,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "positionBottom": {
           "x": -475,
@@ -1890,7 +2270,8 @@
           "scale": 3.2,
           "center": true,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "firePitsWarning": false,
@@ -1903,7 +2284,8 @@
         "scale": 3.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "vampire": {
@@ -1956,7 +2338,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "itemsOnGround": {
@@ -1973,7 +2356,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "slayerBossWarning": {
@@ -1983,12 +2367,27 @@
     },
     "slayerMinibossHighlight": false,
     "slayerMinibossLine": false,
+    "slayerMinibossLineWidth": 3,
     "hideMobNames": false,
     "questWarning": true,
     "questWarningTitle": true
   },
   "dungeon": {
-    "highlightClickedBlocks": false,
+    "clickedBlocks": {
+      "enabled": false,
+      "chestColor": "0:178:85:255:85",
+      "trappedChestColor": "0:178:0:170:0",
+      "lockedChestColor": "0:178:255:85:85",
+      "witherEssenceColor": "0:178:255:85:255",
+      "leverColor": "0:178:255:255:85",
+      "showText": true,
+      "randomColor": false
+    },
+    "secretChime": {
+      "enabled": false,
+      "soundName": "random.orb",
+      "soundPitch": 1.0
+    },
     "showMilestonesDisplay": false,
     "showMileStonesDisplayPos": {
       "x": 10,
@@ -1996,7 +2395,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "deathCounterDisplay": false,
     "deathCounterPos": {
@@ -2005,7 +2405,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "cleanEnd": {
       "enabled": false,
@@ -2015,6 +2416,17 @@
     "highlightDeathmites": true,
     "highlightTeammates": true,
     "architectNotifier": true,
+    "objectHighlighter": {
+      "starred": {
+        "highlight": true,
+        "colour": "0:60:255:255:0"
+      },
+      "fel": {
+        "highlight": true,
+        "line": false,
+        "colour": "0:200:255:0:255"
+      }
+    },
     "objectHider": {
       "hideSuperboomTNT": false,
       "hideBlessing": false,
@@ -2041,7 +2453,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "partyFinder": {
@@ -2117,7 +2530,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "cancelledBuyOrderClipboard": false,
       "openPriceWebsite": false,
@@ -2128,7 +2542,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": true,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       },
       "craftMaterialsFromBazaar": false,
       "craftMaterialsFromBazaarPosition": {
@@ -2137,8 +2552,52 @@
         "scale": 1.0,
         "center": false,
         "centerX": true,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       }
+    },
+    "experimentationTable": {
+      "experimentsProfitTracker": {
+        "enabled": false,
+        "hideMessages": [],
+        "timeDisplayed": 30,
+        "position": {
+          "x": 20,
+          "y": 20,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
+      "dryStreak": {
+        "enabled": false,
+        "attemptsSince": true,
+        "xpSince": true,
+        "position": {
+          "x": 200,
+          "y": -187,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
+      "superpairDisplay": false,
+      "superpairDisplayPosition": {
+        "x": -372,
+        "y": 161,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      },
+      "superpairsClicksAlert": false,
+      "ultraRareBookAlert": false,
+      "guardianReminder": false
     },
     "enchantParsing": {
       "colorParsing": true,
@@ -2181,16 +2640,13 @@
           "scale": 1.0,
           "center": false,
           "centerX": true,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
-        "enabled": true,
+        "enabled": false,
         "reforgeStonesOnlyHex": true,
         "showDiff": false,
         "hideChat": false
-      },
-      "enchanting": {
-        "superpairsClicksAlert": false,
-        "ultraRareBookAlert": false
       }
     },
     "itemAbilities": {
@@ -2209,7 +2665,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "hideChat": true
       },
@@ -2222,7 +2679,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": false
+          "centerY": false,
+          "ignoreCustomScale": false
         }
       },
       "depletedBonzosMasks": false
@@ -2320,7 +2778,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "compactOnClick": true,
       "compactOnClickAlways": false,
@@ -2331,7 +2790,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "hoppityCollectionStats": true,
       "hoppityStatsPosition": {
@@ -2340,12 +2800,21 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "leaderboardChange": false,
       "hoppityMenuShortcut": true,
-      "highlightRabbitsWithRequirement": false,
-      "onlyHighlightRequirementNotMet": true,
+      "highlightFoundRabbits": false,
+      "highlightRabbits": [
+        "ABI",
+        "FACTORY",
+        "MET",
+        "NOT_MET",
+        "SHOP",
+        "STRAYS"
+      ],
+      "rarityDyeRecolor": true,
       "showLocationRequirementsRabbitsInHoppityStats": false,
       "rabbitWarning": {
         "rabbitWarning": true,
@@ -2363,7 +2832,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "itemScale": 0.6
       },
@@ -2387,7 +2857,8 @@
           "scale": 1.0,
           "center": true,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "mythicRabbitRequirement": false,
@@ -2398,7 +2869,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "itemPickupLogConfig": {
@@ -2420,7 +2892,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "craftableItemList": {
@@ -2433,7 +2906,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "hideNotClickable": {
@@ -2442,6 +2916,12 @@
       "opacity": 180,
       "itemsBypass": true,
       "itemsGreenLine": true
+    },
+    "personalCompactor": {
+      "enabled": true,
+      "visibilityMode": "EXCEPT_KEYBIND",
+      "keybind": 42,
+      "showToggle": true
     },
     "rngMeter": {
       "floorName": false,
@@ -2479,7 +2959,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "estimatedItemValues": {
@@ -2487,6 +2968,7 @@
       "hotkey": 0,
       "alwaysEnabled": true,
       "enchantmentsCap": 7,
+      "starMaterialCap": 3,
       "exactPrice": false,
       "armor": true,
       "ignoreHelmetSkins": false,
@@ -2500,7 +2982,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "chestValueConfig": {
@@ -2522,13 +3005,15 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "gfs": {
       "queuedGFS": true,
       "bazaarGFS": false,
-      "superCraftGFS": true
+      "superCraftGFS": true,
+      "defaultAmountGFS": 1
     },
     "pocketSackInASack": {
       "showOverlay": false,
@@ -2539,6 +3024,10 @@
       "bypassKey": 42,
       "invertBypass": false,
       "invertScroll": false
+    },
+    "magicalPower": {
+      "enabled": false,
+      "colored": false
     },
     "itemNumberAsStackSize": [
       "NEW_YEAR_CAKE",
@@ -2552,6 +3041,7 @@
     "displaySackName": false,
     "anvilCombineHelper": false,
     "itemStars": false,
+    "ultimateEnchantStar": false,
     "highlightMissingSkyBlockLevelGuide": true,
     "powerStoneGuide": true,
     "favoritePowerStone": false,
@@ -2559,7 +3049,10 @@
     "shiftClickNPCSell": false,
     "shiftClickBrewing": false,
     "timeHeldInLore": false,
-    "stonkOfStonkPrice": true
+    "stonkOfStonkPrice": true,
+    "ministerInCalendar": true,
+    "hexAsColorInLore": true,
+    "highlightActiveBeaconEffect": true
   },
   "event": {
     "bingo": {
@@ -2575,7 +3068,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "nextTipDuration": true,
         "hideDoneDifficulty": true,
@@ -2594,7 +3088,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "diana": {
@@ -2607,7 +3102,8 @@
       "keyBindWarp": 0,
       "ignoredWarps": {
         "crypt": false,
-        "wizard": false
+        "wizard": false,
+        "stonks": false
       },
       "inquisitorSharing": {
         "enabled": true,
@@ -2626,7 +3122,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "mythologicalMobtracker": {
@@ -2637,7 +3134,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         },
         "showPercentage": false,
         "hideChat": false
@@ -2674,7 +3172,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "giftingOpportunities": {
@@ -2690,7 +3189,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "jyrreTimer": {
@@ -2702,7 +3202,8 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": true
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       },
       "islandCloseTime": true,
@@ -2712,15 +3213,37 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
-      "newYearCakeReminder": true
+      "newYearCakeReminder": true,
+      "reindrakeWarpHelper": true
     },
     "hoppityEggs": {
+      "hoppityCallWarning": {
+        "enabled": true,
+        "acceptHotkey": 0,
+        "hoppityCallSound": "note.pling",
+        "flashColor": "0:127:0:238:255"
+      },
+      "eventSummary": {
+        "enabled": true,
+        "statDisplayList": [
+          "MEAL_EGGS_FOUND",
+          "HOPPITY_RABBITS_BOUGHT",
+          "SIDE_DISH_EGGS",
+          "MILESTONE_RABBITS",
+          "EMPTY_1",
+          "NEW_RABBITS",
+          "EMPTY_2",
+          "DUPLICATE_RABBITS"
+        ]
+      },
       "waypoints": true,
       "waypointsImmediately": false,
       "waypointColor": "0:53:46:224:73",
       "showLine": false,
+      "showPathFinder": false,
       "showAllWaypoints": false,
       "hideDuplicateWaypoints": false,
       "highlightDuplicateEggLocations": false,
@@ -2742,12 +3265,15 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "highlightHoppityShop": true,
       "hoppityShopReminder": true,
       "timeInChat": true,
       "compactChat": false,
+      "rarityInCompact": "NEW",
+      "showDuplicateNumber": false,
       "petWarning": false
     },
     "cityProject": {
@@ -2760,7 +3286,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "jerry": {
@@ -2775,7 +3302,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "fearStatDisplay": false,
       "positionFear": {
@@ -2784,7 +3312,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "greatSpookTimeLeft": false,
       "positionTimeLeft": {
@@ -2793,8 +3322,39 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
+    },
+    "carnival": {
+      "zombieShootout": {
+        "enabled": false,
+        "coloredHitboxes": true,
+        "highestOnly": false,
+        "coloredLines": true,
+        "lampTimer": true,
+        "lampPosition": {
+          "x": 20,
+          "y": 20,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
+      "reminderDailyTickets": true,
+      "showGoals": true,
+      "goalsPosition": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": false,
+        "ignoreCustomScale": false
+      },
+      "doubleClickToStart": true
     },
     "century": {
       "enableActiveTimer": true,
@@ -2804,7 +3364,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "enableActiveAlert": false
     },
@@ -2896,7 +3457,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "barPosition": {
       "x": 384,
@@ -2904,7 +3466,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "allSkillPosition": {
       "x": 5,
@@ -2912,7 +3475,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "etaPosition": {
       "x": 5,
@@ -2920,7 +3484,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     }
   },
   "chat": {
@@ -2947,7 +3512,8 @@
           "amberGemstones": "FINE_UP",
           "amethystGemstones": "FINE_UP",
           "jadeGemstones": "FINE_UP",
-          "topazGemstones": "FINE_UP"
+          "topazGemstones": "FINE_UP",
+          "jasperGemstones": "FINE_UP"
         }
       },
       "hypixelHub": true,
@@ -2965,7 +3531,10 @@
       "diana": false,
       "factoryUpgrade": false,
       "sacrifice": false,
+      "gardenNoPest": false,
       "hideAlphaAchievements": false,
+      "parkour": false,
+      "teleportPads": false,
       "others": false
     },
     "playerMessage": {
@@ -2993,9 +3562,14 @@
       "clickableChatMessage": true
     },
     "compactBestiaryMessage": true,
+    "compactExperimentationTable": false,
     "hideArachneMessages": false,
     "hideSacksChange": false,
-    "translator": false,
+    "translator": {
+      "translateOnClick": false,
+      "languageName": "ENGLISH",
+      "languageCode": "en"
+    },
     "skyBlockXPInChat": true,
     "hideJacob": true,
     "hideSkyMall": true,
@@ -3010,12 +3584,17 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "petExperienceToolTip": {
         "petDisplay": true,
         "showAlways": false,
         "showGoldenDragonEgg": true
+      },
+      "nametag": {
+        "hidePetLevel": false,
+        "hideMaxPetLevel": false
       },
       "hideAutopet": false,
       "petItemDisplay": [
@@ -3044,10 +3623,17 @@
         "menuOpenWiki": false,
         "wikiKeybind": 0
       },
+      "reversePT": {
+        "command": true,
+        "clickable": false,
+        "message": "Nuh Uh"
+      },
       "shortCommands": true,
       "partyKickReason": true,
       "replaceWarpIs": false,
-      "viewRecipeLowerCase": true
+      "viewRecipeLowerCase": true,
+      "transferCooldown": false,
+      "transferCooldownMessage": false
     },
     "partyCommands": {
       "defaultRequiredTrustLevel": "FRIENDS",
@@ -3076,7 +3662,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "hideMobsNametagNearby": false,
       "infernoFuelBlocker": false
@@ -3090,8 +3677,29 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       }
+    },
+    "areaNavigation": {
+      "pathfinder": {
+        "enabled": false,
+        "showAlways": false,
+        "includeCurrentArea": false,
+        "color": "0:245:85:255:85",
+        "position": {
+          "x": -350,
+          "y": 100,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false,
+          "ignoreCustomScale": false
+        }
+      },
+      "inWorld": false,
+      "includeSmallAreas": false,
+      "enterTitle": false
     },
     "hideArmor2": {
       "mode": "OFF",
@@ -3100,13 +3708,17 @@
     "potionEffect": {
       "nonGodPotEffectDisplay": false,
       "nonGodPotEffectShowMixins": false,
+      "expireWarning": false,
+      "expireSound": false,
+      "expireWarnTime": 30,
       "nonGodPotEffectPos": {
         "x": 10,
         "y": 10,
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "particleHiders": {
@@ -3140,7 +3752,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       },
       "trapperSolver": true,
       "trapperMobDiedMessage": true,
@@ -3155,7 +3768,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "teleportPad": {
@@ -3172,7 +3786,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "glowingDroppedItems": {
@@ -3193,7 +3808,8 @@
         "scale": 1.3,
         "center": false,
         "centerX": false,
-        "centerY": true
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "tracker": {
@@ -3220,6 +3836,9 @@
       "hideOnMaxed": false
     },
     "bits": {
+      "bulkBuyCookieTime": true,
+      "showBitsOnCookie": true,
+      "showBitsChangeOnCookie": false,
       "enableWarning": true,
       "notificationSound": true,
       "bitsGainChatMessage": true,
@@ -3230,6 +3849,14 @@
       "color": "0:194:75:197:64",
       "duration": 60
     },
+    "reminders": {
+      "autoDeleteReminders": false,
+      "interval": 5.0
+    },
+    "lastServers": {
+      "enabled": false,
+      "warnTime": 60
+    },
     "showOutsideSB": [],
     "hideExpBottles": false,
     "hideTemporaryArmorstands": true,
@@ -3239,7 +3866,17 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
+    },
+    "carryPosition": {
+      "x": 10,
+      "y": 10,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "brewingStandOverlay": true,
     "crashOnDeath": false,
@@ -3257,12 +3894,14 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "serverRestartTitle": true,
     "restorePieceOfWizardPortalLore": true,
     "accountUpgradeReminder": true,
     "fixNeuHeavyPearls": true,
+    "fixPatcherLines": true,
     "showTimeInLimbo": true,
     "showTimeInLimboPosition": {
       "x": 400,
@@ -3270,7 +3909,8 @@
       "scale": 1.3,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "showLimboTimeInPlaytimeDetailed": true,
     "lesserOrbHider": false,
@@ -3281,7 +3921,8 @@
       "scale": 0.8,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "inventoryLoadPos": {
       "x": 394,
@@ -3289,7 +3930,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "fixGhostEntities": true,
     "replaceRomanNumerals": false,
@@ -3302,7 +3944,10 @@
       "excludeGarden": false,
       "excludeDungeon": false
     },
-    "maintainGameVolume": false
+    "maintainGameVolume": false,
+    "gfsPiggyBank": true,
+    "userluckEnabled": true,
+    "warnAboutPcTimeOffset": true
   },
   "dev": {
     "repo": {
@@ -3342,13 +3987,15 @@
       "assumeMayor": "DISABLED",
       "alwaysFunnyTime": false,
       "neverFunnyTime": false,
+      "alwaysHoppitys": false,
       "trackSoundPosition": {
         "x": 0,
         "y": 0,
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       },
       "trackParticlePosition": {
         "x": 0,
@@ -3356,7 +4003,8 @@
         "scale": 1.0,
         "center": false,
         "centerX": false,
-        "centerY": false
+        "centerY": false,
+        "ignoreCustomScale": false
       }
     },
     "repoPattern": {
@@ -3379,7 +4027,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "debugLocationPos": {
       "x": 1,
@@ -3387,7 +4036,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "debugItemPos": {
       "x": 90,
@@ -3395,7 +4045,8 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": false
+      "centerY": false,
+      "ignoreCustomScale": false
     },
     "debugOrePos": {
       "x": 1,
@@ -3403,13 +4054,15 @@
       "scale": 1.0,
       "center": false,
       "centerX": false,
-      "centerY": true
+      "centerY": true,
+      "ignoreCustomScale": false
     },
     "fancyContributors": true,
     "contributorNametags": true,
     "flipContributors": true,
     "rotateContributors": false,
     "fancySbaContributors": false,
+    "numberFormatOverride": false,
     "minecraftConsoles": {
       "printUnfilteredDebugs": false,
       "logUnfilteredFile": false,
@@ -3431,7 +4084,9 @@
       "graph": {
         "enabled": false,
         "placeKey": 33,
+        "toggleGhostPosition": 0,
         "selectKey": -98,
+        "selectRaycastKey": 0,
         "connectKey": 46,
         "exitKey": 199,
         "editKey": 15,
@@ -3442,13 +4097,16 @@
         "clearKey": 25,
         "throughBlocksKey": 50,
         "tutorialKey": 37,
+        "splitKey": 0,
+        "dissolveKey": 0,
         "infoDisplay": {
           "x": 20,
           "y": 20,
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": false
+          "centerY": false,
+          "ignoreCustomScale": false
         },
         "namedNodesList": {
           "x": 20,
@@ -3456,9 +4114,12 @@
           "scale": 1.0,
           "center": false,
           "centerX": false,
-          "centerY": false
+          "centerY": false,
+          "ignoreCustomScale": false
         },
-        "showsStats": true
+        "maxNodeDistance": 50,
+        "showsStats": true,
+        "useAsIslandArea": false
       }
     },
     "mobDebug": {
@@ -3490,10 +4151,25 @@
         "profiles": {
           "lemon": {
             "currentPet": "",
+            "experimentation": {
+              "tablePos": "0.0:0.0:0.0",
+              "dryStreak": {
+                "attemptsSince": 0,
+                "xpSince": 0
+              },
+              "experimentsProfitTracker": {
+                "experimentsDone": 0,
+                "xpGained": 0,
+                "bitCost": 0,
+                "startCost": 0,
+                "items": {}
+              }
+            },
             "chocolateFactory": {
               "currentRabbits": 0,
               "maxRabbits": -1,
               "currentChocolate": 0,
+              "maxChocolate": 0,
               "chocolateThisPrestige": 0,
               "chocolateAllTime": 0,
               "rawChocPerSecond": 0,
@@ -3520,6 +4196,10 @@
                 "straysExtraChocMs": {},
                 "goldenTypesCaught": {}
               }
+            },
+            "carnival": {
+              "carnivalYear": 0,
+              "goals": {}
             },
             "maxwell": {
               "magicalPower": -1,
@@ -3582,6 +4262,7 @@
               "trophyFishes": {}
             },
             "garden": {
+              "experience": 114526,
               "cropCounter": {
                 "MUSHROOM": 640,
                 "WHEAT": 2592,
@@ -3602,7 +4283,7 @@
               "informedAboutLowMatter": 0,
               "informedAboutLowFuel": 0,
               "visitorInterval": 900000,
-              "nextSixthVisitorArrival": -3200,
+              "nextSixthVisitorArrival": 0,
               "armorDropTracker": {
                 "drops": {}
               },
@@ -3647,7 +4328,7 @@
                 "1": {
                   "id": 1,
                   "name": "1",
-                  "pests": 0,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3657,7 +4338,7 @@
                 "2": {
                   "id": 2,
                   "name": "2",
-                  "pests": 0,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3677,7 +4358,7 @@
                 "4": {
                   "id": 4,
                   "name": "4",
-                  "pests": 0,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3687,7 +4368,7 @@
                 "5": {
                   "id": 5,
                   "name": "5",
-                  "pests": 0,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3697,7 +4378,7 @@
                 "6": {
                   "id": 6,
                   "name": "6",
-                  "pests": 0,
+                  "pests": 3,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3797,7 +4478,7 @@
                 "16": {
                   "id": 16,
                   "name": "16",
-                  "pests": 0,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3885,7 +4566,7 @@
                   "uncleared": false
                 }
               },
-              "scoreboardPests": 0,
+              "scoreboardPests": 8,
               "cropStartLocations": {},
               "cropLastFarmedLocations": {},
               "farmingLanes": {},
@@ -3894,7 +4575,7 @@
                 "farmingLevel": 26,
                 "bestiary": -1.0,
                 "plotsUnlocked": -1,
-                "anitaUpgrade": -1,
+                "anitaUpgrade": 0,
                 "farmingStrength": -1,
                 "cakeExpiring": -1,
                 "carrolyn": {
@@ -3909,7 +4590,8 @@
                 "lastFarmingWeightLeaderboard": -1
               },
               "npcVisitorLocations": {
-                "Jacob": "-20.5:71.0:-15.5"
+                "Jacob": "-19.5:71.0:-13.5",
+                "Anita": "-21.5:71.0:-13.5"
               },
               "customGoalMilestone": {},
               "pestProfitTracker": {
@@ -3970,7 +4652,11 @@
               "mineshaft": {
                 "mineshaftTotalBlocks": 0,
                 "mineshaftTotalCount": 0,
-                "blocksBroken": []
+                "blocksBroken": [],
+                "corpseProfitTracker": {
+                  "corpsesLooted": {},
+                  "bucketedItems": {}
+                }
               }
             },
             "trapperData": {
@@ -4067,10 +4753,12 @@
                 "burrowsDug": 0,
                 "items": {}
               },
+              "dianaProfitTrackerPerElectionSeason": {},
               "mythologicalMobTracker": {
                 "creaturesSinceLastInquisitor": 0,
                 "count": {}
-              }
+              },
+              "mythologicalMobTrackerPerElectionSeason": {}
             },
             "skillData": {
               "COMBAT": {
@@ -4184,19 +4872,35 @@
             },
             "wardrobe": {
               "data": {}
-            }
+            },
+            "hoppityEventStats": {}
           },
           "lime": {
-            "currentPet": "§9Enderman",
+            "currentPet": "§fGriffin",
+            "experimentation": {
+              "tablePos": "0.75:99.53125:8.625",
+              "dryStreak": {
+                "attemptsSince": 0,
+                "xpSince": 0
+              },
+              "experimentsProfitTracker": {
+                "experimentsDone": 0,
+                "xpGained": 0,
+                "bitCost": 0,
+                "startCost": 0,
+                "items": {}
+              }
+            },
             "chocolateFactory": {
-              "currentRabbits": 0,
-              "maxRabbits": -1,
-              "currentChocolate": 0,
-              "chocolateThisPrestige": 0,
-              "chocolateAllTime": 0,
-              "rawChocPerSecond": 0,
-              "chocolateMultiplier": 1.0,
-              "rawChocolateMultiplier": 1.0,
+              "currentRabbits": 1,
+              "maxRabbits": 28,
+              "currentChocolate": 18229608,
+              "maxChocolate": 500000000,
+              "chocolateThisPrestige": 20120461,
+              "chocolateAllTime": 20120461,
+              "rawChocPerSecond": 595,
+              "chocolateMultiplier": 1.002,
+              "rawChocolateMultiplier": 1.002,
               "timeTowerLevel": 0,
               "currentTimeTowerEnds": 0,
               "nextTimeTower": 0,
@@ -4204,35 +4908,49 @@
               "timeTowerCooldown": 8,
               "maxTimeTowerUses": 3,
               "hasMuRabbit": false,
-              "bestUpgradeAvailableAt": 0,
-              "bestUpgradeCost": 0,
-              "lastDataSave": 0,
+              "bestUpgradeAvailableAt": 1731842159002,
+              "bestUpgradeCost": 12701,
+              "lastDataSave": 1731872714541,
               "positionChange": {
-                "lastPosition": -1
+                "lastTime": 1731872674384,
+                "lastPosition": 547048,
+                "lastLeaderboard": "#547,048 §7Top §a11.5%"
               },
-              "rabbitCounts": {},
+              "rabbitCounts": {
+                "Fievel": 1
+              },
               "locationRabbitRequirements": {},
-              "collectedEggLocations": {},
+              "collectedEggLocations": {
+                "THE_END": [
+                  "-661.0:5.0:-248.0"
+                ]
+              },
               "strayTracker": {
                 "straysCaught": {},
                 "straysExtraChocMs": {},
                 "goldenTypesCaught": {}
               }
             },
+            "carnival": {
+              "carnivalYear": 0,
+              "goals": {}
+            },
             "maxwell": {
-              "magicalPower": -1,
+              "currentPower": "Commando",
+              "magicalPower": 8,
               "tunings": [],
               "favoritePowers": []
             },
             "arrows": {
               "currentArrow": "ARROW",
               "arrowAmount": {
-                "ARROW": 1292
+                "ARROW": 297
               }
             },
             "bits": {
               "bits": -1,
-              "bitsAvailable": 0
+              "bitsAvailable": 0,
+              "boosterCookieExpiryTime": 0
             },
             "minions": {
               "7.5:100.0:37.5": {
@@ -4240,11 +4958,11 @@
                 "lastClicked": 0
               },
               "7.5:100.0:36.5": {
-                "displayName": "Redstone Minion 5",
+                "displayName": "Redstone Minion 6",
                 "lastClicked": 0
               },
               "8.5:100.0:36.5": {
-                "displayName": "Redstone Minion 5",
+                "displayName": "Redstone Minion 6",
                 "lastClicked": 0
               },
               "8.5:100.0:37.5": {
@@ -4252,15 +4970,23 @@
                 "lastClicked": 0
               },
               "3.5:100.0:36.5": {
-                "displayName": "Redstone Minion 5",
+                "displayName": "Redstone Minion 6",
                 "lastClicked": 0
               },
               "3.5:103.0:36.5": {
-                "displayName": "Redstone Minion 5",
+                "displayName": "Redstone Minion 6",
                 "lastClicked": 0
               },
               "8.5:103.0:36.5": {
-                "displayName": "Redstone Minion 5",
+                "displayName": "Redstone Minion 6",
+                "lastClicked": 0
+              },
+              "9.5:100.0:2.5": {
+                "displayName": "Ice Minion 8",
+                "lastClicked": 0
+              },
+              "3.5:100.0:2.5": {
+                "displayName": "Cobblestone Minion 5",
                 "lastClicked": 0
               }
             },
@@ -4325,15 +5051,15 @@
                 "outdatedItems": {
                   "BEE": false
                 },
-                "farmingLevel": -1,
+                "farmingLevel": 14,
                 "bestiary": -1.0,
                 "plotsUnlocked": -1,
                 "anitaUpgrade": -1,
                 "farmingStrength": -1,
-                "cakeExpiring": 1727281879445,
+                "cakeExpiring": 1731933908473,
                 "carrolyn": {},
                 "farmingItems": {
-                  "BEE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMV0gwqdmQmVlIiwibmJ0dGFnIjoie1NrdWxsT3duZXI6e0lkOlwiMjJhYWVmOWEtNWUyMC00NjkwLWI5NTAtZjQ5YTg0ZjAxYWZlXCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJleUowWlhoMGRYSmxjeUk2ZXlKVFMwbE9JanA3SW5WeWJDSTZJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TjJVNU5ERTVPRGRsT0RJMVlUSTBaV0UzWW1GaFptRmlPVGd4T1RNME5HSTJZekkwTjJNM05XTTFOR0UyT1RFNU9EZGpaREk1Tm1Kak1UWXpZekkyTXlKOWZYMD1cIn1dfSxOYW1lOlwiwqcyMmFhZWY5YS01ZTIwLTQ2OTAtYjk1MC1mNDlhODRmMDFhZmVcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdTcGVlZDogwqdhKzAuMVwiLDM6XCLCpzdTdHJlbmd0aDogwqdjKzUuMjVcIiw0Olwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErMC41XCIsNTpcIlwiLDY6XCLCpzZIaXZlXCIsNzpcIsKnN0ZvciBlYWNoIHBsYXllciB3aXRoaW4gwqdhMjUgwqc3YmxvY2tzOlwiLDg6XCIgwqdiKzEuMDLinI4gSW50ZWxsaWdlbmNlXCIsOTpcIiDCp2MrMS4wMuKdgSBTdHJlbmd0aFwiLDEwOlwiIMKnYSsxLjAx4p2IIERlZmVuc2VcIiwxMTpcIsKnOE1heCAxNSBwbGF5ZXJzXCIsMTI6XCJcIiwxMzpcIsKnN1Byb2dyZXNzIHRvIExldmVsIDI6IMKnZTAlXCIsMTQ6XCLCp2bCp2zCp20gICAgICAgICAgICAgICAgICAgICAgICAgwqdyIMKnZTDCpzYvwqdlMTAwXCIsMTU6XCJcIiwxNjpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDE3Olwiwqc3wqdlU2hpZnQgTGVmdC1jbGljayB0byB0b2dnbGUgYXMgZmF2b3JpdGUhXCIsMTg6XCLCp2VSaWdodC1jbGljayB0byBjb252ZXJ0IHRvIGFuIGl0ZW0hXCJdLE5hbWU6XCLCpzdbTHZsIDFdIMKnZkJlZVwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJCRUVcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjAuMCxcXFwidGllclxcXCI6XFxcIkNPTU1PTlxcXCIsXFxcImhpZGVJbmZvXFxcIjpmYWxzZSxcXFwiY2FuZHlVc2VkXFxcIjowLFxcXCJ1dWlkXFxcIjpcXFwiMWY4MGQzNzctZTc0Ni00ZjBjLWFlZDktNTFiNDA0OTViNjFlXFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCIxMjU2NmFmOS1mYTQ5LTRkOTgtYjdkZi0xNTgwNWQ4OTVmZDZcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiMWY4MGQzNzctZTc0Ni00ZjBjLWFlZDktNTFiNDA0OTViNjFlXCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9"
+                  "BEE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMV0gwqdmQmVlIiwibmJ0dGFnIjoie1NrdWxsT3duZXI6e0lkOlwiODk3OGU0YzMtMzI2OC0zMzVkLTk4NzMtYWFhMjA5YzM0MjRhXCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7U2lnbmF0dXJlOlwiYW1rN0tkdjRGc2xKeGI3ZEpObndhbTFFK2tON2JTeGZWemswRGVzaU1YSWNJMU5rWjRRNkZNTVJVNngyRHJDb2l3ZVZaZGlUbXJpK2twdDlKOEVicnlSUEloOWNXZkVqenVNaW15N1BESXBLRmNqZXpTS3hUQi9KanVMUXJhbkwvQWFEb1M4SENMakhCN2F4UUFhV2QyNVEySTlBM2lQbHY0TzVaTEkvRW80OG5RVkxpRi9Pai9MZ1ljaklUeWR4M0o3K1AxbHFlNDUxVHN6RnpYZG9BazhmSEZvZXJvbWJXM0FsQzZMTWZzdnozS21NRFE1TFo5QkF5SHkxYVNhUG1mV2hmQ3V4S3p2UU12TVRrMmcva1JsSXdIT1IzSS90NXl6cnc3ZUNaTFkwNUhvQ1dYR1ZCYXNSenU1Wk9adm5EUCtrRDh1V2tFWE9uK1crVU1SOGpENzdLaHU4Vy9qeFBTOTRMYXIvN0x0L2ExaG94ZG9aLzlLTzhvOElYbEFkaUhhbFBic1pLOHUySmlCcWJyMHhKYno3RG9LTm40cjJZN2VNTTZNUm0yTmFsSUoydzZwZ01VZUEvNVJ0UHZLYTd4bFZqeXNicGEvSTYveFRVQVRuWC9jeWNhU2QwR3IzOHlQckNiY29lYmQ0Vzg3RTQvUStjWkhnTmxtL3doZXdDSXZ6RHdhTDZiREMwZFZiQkRQZXdzMk1WbjVLOEEyZnM4anNvdkU5OEhaZ0xuT2diM0h1VjdESmZnVWdRb2EzcTdjNUI3Qi9qbmJjUjgvZnFkdHF1ajluNkhzNXV4aHZOMGlWS25tSkduK1NIdS9YV2xDVmZWYXhMVlovY1ZwR1dVbFpaZVFlTlhQQ1dWc0JDVXZDWDRPd212d2NNeGZzcHh5OURaZXRFTkk9XCIsVmFsdWU6XCJld29nSUNKMGFXMWxjM1JoYlhBaUlEb2dNVFl5T0RnM056ZzFOVGM1TkN3S0lDQWljSEp2Wm1sc1pVbGtJaUE2SUNJM016Z3laR1JtWW1VME9EVTBOVFZqT0RJMVpqa3dNR1k0T0daa016Sm1PQ0lzQ2lBZ0luQnliMlpwYkdWT1lXMWxJaUE2SUNKQ2RVbEpaWFFpTEFvZ0lDSnphV2R1WVhSMWNtVlNaWEYxYVhKbFpDSWdPaUIwY25WbExBb2dJQ0owWlhoMGRYSmxjeUlnT2lCN0NpQWdJQ0FpVTB0SlRpSWdPaUI3Q2lBZ0lDQWdJQ0oxY213aUlEb2dJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TjJVNU5ERTVPRGRsT0RJMVlUSTBaV0UzWW1GaFptRmlPVGd4T1RNME5HSTJZekkwTjJNM05XTTFOR0UyT1RFNU9EZGpaREk1Tm1Kak1UWXpZekkyTXlJS0lDQWdJSDBLSUNCOUNuMD1cIn1dfX0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdTcGVlZDogwqdhKzAuMVwiLDM6XCLCpzdTdHJlbmd0aDogwqdjKzUuMjVcIiw0Olwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErMC41XCIsNTpcIlwiLDY6XCLCpzZIaXZlXCIsNzpcIsKnN0ZvciBlYWNoIHBsYXllciB3aXRoaW4gwqdhMjUgwqc3YmxvY2tzOlwiLDg6XCIgwqdiKzEuMDLinI4gSW50ZWxsaWdlbmNlXCIsOTpcIiDCp2MrMS4wMuKdgSBTdHJlbmd0aFwiLDEwOlwiIMKnYSsxLjAx4p2IIERlZmVuc2VcIiwxMTpcIsKnOE1heCAxNSBwbGF5ZXJzXCIsMTI6XCJcIiwxMzpcIsKnN1Byb2dyZXNzIHRvIExldmVsIDI6IMKnZTAlXCIsMTQ6XCLCp2bCp2zCp20gICAgICAgICAgICAgICAgICAgICAgICAgwqdyIMKnZTDCpzYvwqdlMTAwXCIsMTU6XCJcIiwxNjpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDE3Olwiwqc3wqdlU2hpZnQgTGVmdC1jbGljayB0byB0b2dnbGUgYXMgZmF2b3JpdGUhXCIsMTg6XCLCp2VSaWdodC1jbGljayB0byBjb252ZXJ0IHRvIGFuIGl0ZW0hXCJdLE5hbWU6XCLCpzdbTHZsIDFdIMKnZkJlZVwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJCRUVcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjAuMCxcXFwidGllclxcXCI6XFxcIkNPTU1PTlxcXCIsXFxcImhpZGVJbmZvXFxcIjpmYWxzZSxcXFwiY2FuZHlVc2VkXFxcIjowLFxcXCJ1dWlkXFxcIjpcXFwiMWY4MGQzNzctZTc0Ni00ZjBjLWFlZDktNTFiNDA0OTViNjFlXFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCIxMjU2NmFmOS1mYTQ5LTRkOTgtYjdkZi0xNTgwNWQ4OTVmZDZcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiMWY4MGQzNzctZTc0Ni00ZjBjLWFlZDktNTFiNDA0OTViNjFlXCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9"
                 }
               },
               "composterEmptyTime": 0,
@@ -4401,7 +5127,11 @@
               "mineshaft": {
                 "mineshaftTotalBlocks": 0,
                 "mineshaftTotalCount": 0,
-                "blocksBroken": []
+                "blocksBroken": [],
+                "corpseProfitTracker": {
+                  "corpsesLooted": {},
+                  "bucketedItems": {}
+                }
               }
             },
             "trapperData": {
@@ -4412,8 +5142,63 @@
               "animalRarities": {}
             },
             "dungeons": {
-              "bosses": {},
+              "bosses": {
+                "F1": 1,
+                "F2": 1
+              },
               "runs": [
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F3",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F2",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F2",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F2",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F2",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F1",
+                  "openState": "UNOPENED"
+                },
                 {},
                 {},
                 {},
@@ -4490,57 +5275,332 @@
                 "burrowsDug": 0,
                 "items": {}
               },
+              "dianaProfitTrackerPerElectionSeason": {},
               "mythologicalMobTracker": {
                 "creaturesSinceLastInquisitor": 0,
                 "count": {}
-              }
+              },
+              "mythologicalMobTrackerPerElectionSeason": {}
             },
             "skillData": {
               "COMBAT": {
-                "level": 17,
-                "totalXp": 175764,
-                "currentXp": 28339,
-                "currentXpMax": 75000,
-                "overflowLevel": 17,
-                "overflowCurrentXp": 28339,
-                "overflowTotalXp": 175764,
-                "overflowCurrentXpMax": 75000,
-                "lastGain": "46.4",
+                "level": 19,
+                "totalXp": 374242,
+                "currentXp": 51817,
+                "currentXpMax": 200000,
+                "overflowLevel": 19,
+                "overflowCurrentXp": 51817,
+                "overflowTotalXp": 374242,
+                "overflowCurrentXpMax": 200000,
+                "lastGain": "37.1",
                 "customGoalLevel": 0
               },
               "CARPENTRY": {
-                "level": 11,
-                "totalXp": 15722,
-                "currentXp": 797,
-                "currentXpMax": 7500,
-                "overflowLevel": 11,
-                "overflowCurrentXp": 797,
-                "overflowTotalXp": 15722,
-                "overflowCurrentXpMax": 7500,
-                "lastGain": "43.2",
+                "level": 12,
+                "totalXp": 23015,
+                "currentXp": 590,
+                "currentXpMax": 10000,
+                "overflowLevel": 12,
+                "overflowCurrentXp": 590,
+                "overflowTotalXp": 23015,
+                "overflowCurrentXpMax": 10000,
+                "lastGain": "38.4",
                 "customGoalLevel": 0
               },
               "MINING": {
+                "level": 16,
+                "totalXp": 142777,
+                "currentXp": 45352,
+                "currentXpMax": 50000,
+                "overflowLevel": 16,
+                "overflowCurrentXp": 45352,
+                "overflowTotalXp": 142777,
+                "overflowCurrentXpMax": 50000,
+                "lastGain": "4,138.2",
+                "customGoalLevel": 0
+              },
+              "FARMING": {
                 "level": 14,
-                "totalXp": 60198,
-                "currentXp": 12773,
+                "totalXp": 48704,
+                "currentXp": 1279,
                 "currentXpMax": 20000,
                 "overflowLevel": 14,
-                "overflowCurrentXp": 12773,
-                "overflowTotalXp": 60198,
+                "overflowCurrentXp": 1279,
+                "overflowTotalXp": 48704,
                 "overflowCurrentXpMax": 20000,
-                "lastGain": "3.6",
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "FISHING": {
+                "level": 7,
+                "totalXp": 4250,
+                "currentXp": 1325,
+                "currentXpMax": 1500,
+                "overflowLevel": 7,
+                "overflowCurrentXp": 1325,
+                "overflowTotalXp": 4250,
+                "overflowCurrentXpMax": 1500,
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "FORAGING": {
+                "level": 6,
+                "totalXp": 2721,
+                "currentXp": 796,
+                "currentXpMax": 1000,
+                "overflowLevel": 6,
+                "overflowCurrentXp": 796,
+                "overflowTotalXp": 2721,
+                "overflowCurrentXpMax": 1000,
+                "lastGain": "1",
+                "customGoalLevel": 0
+              },
+              "ENCHANTING": {
+                "level": 20,
+                "totalXp": 583464,
+                "currentXp": 61039,
+                "currentXpMax": 300000,
+                "overflowLevel": 20,
+                "overflowCurrentXp": 61039,
+                "overflowTotalXp": 583464,
+                "overflowCurrentXpMax": 300000,
+                "lastGain": "10,500",
+                "customGoalLevel": 0
+              },
+              "ALCHEMY": {
+                "level": 6,
+                "totalXp": 2000,
+                "currentXp": 75,
+                "currentXpMax": 1000,
+                "overflowLevel": 6,
+                "overflowCurrentXp": 75,
+                "overflowTotalXp": 2000,
+                "overflowCurrentXpMax": 1000,
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "TAMING": {
+                "level": 16,
+                "totalXp": 126833,
+                "currentXp": 29408,
+                "currentXpMax": 50000,
+                "overflowLevel": 16,
+                "overflowCurrentXp": 29408,
+                "overflowTotalXp": 126833,
+                "overflowCurrentXpMax": 50000,
+                "lastGain": "",
                 "customGoalLevel": 0
               }
             },
             "wardrobe": {
-              "data": {}
-            }
+              "data": {
+                "1": {
+                  "id": 1,
+                  "armor": [
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9oZWxtZXQiLCJkaXNwbGF5bmFtZSI6IsKnOVNtYXJ0IFJvdHRlbiBIZWxtZXQiLCJuYnR0YWciOiJ7VW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3R2VhciBTY29yZTogwqdkMjc0IMKnOCgzNzkpXCIsMTpcIsKnN1N0cmVuZ3RoOiDCp2MrMTIgwqc4KCsxNi44KVwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxNjMgwqc5KCs5KSDCpzgoKzIyOC4yKVwiLDM6XCLCpzdEZWZlbnNlOiDCp2ErMjkgwqc5KCs5KSDCpzgoKzQwLjYpXCIsNDpcIsKnN0ludGVsbGlnZW5jZTogwqdhKzYwIMKnOSgrNjApIMKnOCgrODQpXCIsNTpcIlwiLDY6XCLCpzlHcm93dGggVsKnOSwgwqc5UHJvdGVjdGlvbiBWwqc5LCDCpzlUaG9ybnMgSUlJXCIsNzpcIlwiLDg6XCLCpzdUaGlzIHJvdHRlbiBwaWVjZSBvZiBhcm1vciBncmFudHNcIiw5Olwiwqc3wqdlMTUlIMKnN2tub2NrYmFjayByZXNpc3RhbmNlIHRvIGFycm93c1wiLDEwOlwiwqc3cGVyIHBpZWNlIHdvcm4uXCIsMTE6XCJcIiwxMjpcIsKnNkZ1bGwgU2V0IEJvbnVzOiBTaWV2ZSBCb2R5ICg0LzQpXCIsMTM6XCLCpzdHYWluIGFuIGFkZGl0aW9uYWwgwqdlMjAlIMKnN2tub2NrYmFja1wiLDE0Olwiwqc3cmVzaXN0YW5jZSB0byBhcnJvd3MuXCIsMTU6XCJcIiwxNjpcIsKnMlRoaXMgaXRlbSBpcyBVbmRlYWQg4LyVIVwiLDE3OlwiXCIsMTg6XCLCpznCp2xSQVJFIERVTkdFT04gSEVMTUVUXCJdLGNvbG9yOjEwMzgzMzYzLE5hbWU6XCLCpzlTbWFydCBSb3R0ZW4gSGVsbWV0XCJ9LEV4dHJhQXR0cmlidXRlczp7ZHVuZ2Vvbl9za2lsbF9yZXE6XCJDQVRBQ09NQlM6M1wiLGJhc2VTdGF0Qm9vc3RQZXJjZW50YWdlOjMsbW9kaWZpZXI6XCJzbWFydFwiLGlkOlwiUk9UVEVOX0hFTE1FVFwiLGVuY2hhbnRtZW50czp7dGhvcm5zOjMscHJvdGVjdGlvbjo1LGdyb3d0aDo1fSx1dWlkOlwiYTNmNDAwZGQtOGMwNC00NWFkLWJmMzktMzNjY2Q4Y2I5OGQzXCIsaXRlbV90aWVyOjIsdGltZXN0YW1wOjE3MzE4NzE0OTY4NzdMfX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9jaGVzdHBsYXRlIiwiZGlzcGxheW5hbWUiOiLCpzlUaXRhbmljIFJvdHRlbiBDaGVzdHBsYXRlIiwibmJ0dGFnIjoie1VuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN0dlYXIgU2NvcmU6IMKnZDM5NCDCpzgoNTQ3KVwiLDE6XCLCpzdTdHJlbmd0aDogwqdjKzI5IMKnOCgrNDAuNilcIiwyOlwiwqc3SGVhbHRoOiDCp2ErMjc0IMKnOSgrMjApIMKnOCgrMzgzLjYpXCIsMzpcIsKnN0RlZmVuc2U6IMKnYSs0MCDCpzkoKzIwKSDCpzgoKzU2KVwiLDQ6XCJcIiw1Olwiwqc5R3Jvd3RoIFbCpzksIMKnOVByb3RlY3Rpb24gVsKnOSwgwqc5VGhvcm5zIElJSVwiLDY6XCJcIiw3Olwiwqc3VGhpcyByb3R0ZW4gcGllY2Ugb2YgYXJtb3IgZ3JhbnRzXCIsODpcIsKnN8KnZTE1JSDCpzdrbm9ja2JhY2sgcmVzaXN0YW5jZSB0byBhcnJvd3NcIiw5Olwiwqc3cGVyIHBpZWNlIHdvcm4uXCIsMTA6XCJcIiwxMTpcIsKnNkZ1bGwgU2V0IEJvbnVzOiBTaWV2ZSBCb2R5ICg0LzQpXCIsMTI6XCLCpzdHYWluIGFuIGFkZGl0aW9uYWwgwqdlMjAlIMKnN2tub2NrYmFja1wiLDEzOlwiwqc3cmVzaXN0YW5jZSB0byBhcnJvd3MuXCIsMTQ6XCJcIiwxNTpcIsKnMlRoaXMgaXRlbSBpcyBVbmRlYWQg4LyVIVwiLDE2OlwiXCIsMTc6XCLCpznCp2xSQVJFIERVTkdFT04gQ0hFU1RQTEFURVwiXSxjb2xvcjo5NzU4NSxOYW1lOlwiwqc5VGl0YW5pYyBSb3R0ZW4gQ2hlc3RwbGF0ZVwifSxFeHRyYUF0dHJpYnV0ZXM6e2R1bmdlb25fc2tpbGxfcmVxOlwiQ0FUQUNPTUJTOjFcIixiYXNlU3RhdEJvb3N0UGVyY2VudGFnZTo0Myxtb2RpZmllcjpcInRpdGFuaWNcIixpZDpcIlJPVFRFTl9DSEVTVFBMQVRFXCIsZW5jaGFudG1lbnRzOnt0aG9ybnM6Myxwcm90ZWN0aW9uOjUsZ3Jvd3RoOjV9LHV1aWQ6XCJlNWE0NDg0ZC0zNzRmLTQyZjgtYWUwMC01YzlkNjdhOWMxN2FcIixpdGVtX3RpZXI6MSx0aW1lc3RhbXA6MTczMTg3MzI3MzEzMkx9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9sZWdnaW5ncyIsImRpc3BsYXluYW1lIjoiwqc5VGl0YW5pYyBSb3R0ZW4gTGVnZ2luZ3MiLCJuYnR0YWciOiJ7VW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3R2VhciBTY29yZTogwqdkMzU4IMKnOCg0OTcpXCIsMTpcIsKnN1N0cmVuZ3RoOiDCp2MrMjEgwqc4KCsyOS40KVwiLDI6XCLCpzdIZWFsdGg6IMKnYSsyNDYgwqc5KCsyMCkgwqc4KCszNDQuNClcIiwzOlwiwqc3RGVmZW5zZTogwqdhKzQwIMKnOSgrMjApIMKnOCgrNTYpXCIsNDpcIlwiLDU6XCLCpzlHcm93dGggVsKnOSwgwqc5UHJvdGVjdGlvbiBWwqc5LCDCpzlUaG9ybnMgSUlJXCIsNjpcIlwiLDc6XCLCpzdUaGlzIHJvdHRlbiBwaWVjZSBvZiBhcm1vciBncmFudHNcIiw4Olwiwqc3wqdlMTUlIMKnN2tub2NrYmFjayByZXNpc3RhbmNlIHRvIGFycm93c1wiLDk6XCLCpzdwZXIgcGllY2Ugd29ybi5cIiwxMDpcIlwiLDExOlwiwqc2RnVsbCBTZXQgQm9udXM6IFNpZXZlIEJvZHkgKDQvNClcIiwxMjpcIsKnN0dhaW4gYW4gYWRkaXRpb25hbCDCp2UyMCUgwqc3a25vY2tiYWNrXCIsMTM6XCLCpzdyZXNpc3RhbmNlIHRvIGFycm93cy5cIiwxNDpcIlwiLDE1OlwiwqcyVGhpcyBpdGVtIGlzIFVuZGVhZCDgvJUhXCIsMTY6XCJcIiwxNzpcIsKnOcKnbFJBUkUgRFVOR0VPTiBMRUdHSU5HU1wiXSxjb2xvcjo5NzU4NSxOYW1lOlwiwqc5VGl0YW5pYyBSb3R0ZW4gTGVnZ2luZ3NcIn0sRXh0cmFBdHRyaWJ1dGVzOntiYXNlU3RhdEJvb3N0UGVyY2VudGFnZTozNyxtb2RpZmllcjpcInRpdGFuaWNcIixpZDpcIlJPVFRFTl9MRUdHSU5HU1wiLGVuY2hhbnRtZW50czp7dGhvcm5zOjMscHJvdGVjdGlvbjo1LGdyb3d0aDo1fSx1dWlkOlwiODMxNTlhNjktNWI3Mi00Y2M4LTlmZmItMGQyN2Y1ZjE0YmNlXCIsaXRlbV90aWVyOjAsdGltZXN0YW1wOjE3MzE5MzU1MzY1OTBMfX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9ib290cyIsImRpc3BsYXluYW1lIjoiwqc5RmllcmNlIFJvdHRlbiBCb290cyIsIm5idHRhZyI6IntlbmNoOlswOntsdmw6M3MsaWQ6OHN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdHZWFyIFNjb3JlOiDCp2QyNDEgwqc4KDMyNSlcIiwxOlwiwqc3U3RyZW5ndGg6IMKnYysxOCDCpzkoKzYpIMKnOCgrMjUuMilcIiwyOlwiwqc3Q3JpdCBDaGFuY2U6IMKnYys0JSDCpzkoKzQlKSDCpzgoKzQlKVwiLDM6XCLCpzdDcml0IERhbWFnZTogwqdjKzEwJSDCpzkoKzEwJSkgwqc4KCsxNCUpXCIsNDpcIsKnN0hlYWx0aDogwqdhKzE0NCDCpzgoKzIwMS42KVwiLDU6XCLCpzdEZWZlbnNlOiDCp2ErMjAgwqc4KCsyOClcIiw2OlwiXCIsNzpcIsKnOURlcHRoIFN0cmlkZXIgSUlJwqc5LCDCpzlGZWF0aGVyIEZhbGxpbmcgVsKnOSwgwqc5R3Jvd3RoIFZcIiw4Olwiwqc5UHJvdGVjdGlvbiBWwqc5LCDCpzlUaG9ybnMgSUlJXCIsOTpcIlwiLDEwOlwiwqc3VGhpcyByb3R0ZW4gcGllY2Ugb2YgYXJtb3IgZ3JhbnRzXCIsMTE6XCLCpzfCp2UxNSUgwqc3a25vY2tiYWNrIHJlc2lzdGFuY2UgdG8gYXJyb3dzXCIsMTI6XCLCpzdwZXIgcGllY2Ugd29ybi5cIiwxMzpcIlwiLDE0Olwiwqc2RnVsbCBTZXQgQm9udXM6IFNpZXZlIEJvZHkgKDQvNClcIiwxNTpcIsKnN0dhaW4gYW4gYWRkaXRpb25hbCDCp2UyMCUgwqc3a25vY2tiYWNrXCIsMTY6XCLCpzdyZXNpc3RhbmNlIHRvIGFycm93cy5cIiwxNzpcIlwiLDE4OlwiwqcyVGhpcyBpdGVtIGlzIFVuZGVhZCDgvJUhXCIsMTk6XCJcIiwyMDpcIsKnOcKnbFJBUkUgRFVOR0VPTiBCT09UU1wiXSxjb2xvcjoxMDM4MzM2MyxOYW1lOlwiwqc5RmllcmNlIFJvdHRlbiBCb290c1wifSxFeHRyYUF0dHJpYnV0ZXM6e2R1bmdlb25fc2tpbGxfcmVxOlwiQ0FUQUNPTUJTOjNcIixiYXNlU3RhdEJvb3N0UGVyY2VudGFnZTo2LG1vZGlmaWVyOlwiZmllcmNlXCIsaWQ6XCJST1RURU5fQk9PVFNcIixlbmNoYW50bWVudHM6e2RlcHRoX3N0cmlkZXI6Myx0aG9ybnM6MyxmZWF0aGVyX2ZhbGxpbmc6NSxwcm90ZWN0aW9uOjUsZ3Jvd3RoOjV9LHV1aWQ6XCI4MWM0MDk5NC0wNjAzLTRmOTUtYjQ3Ni0zYjU1YWU4M2Q4ZjFcIixpdGVtX3RpZXI6Mix0aW1lc3RhbXA6MTczMTg3MTc3MzgxM0x9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9"
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "2": {
+                  "id": 2,
+                  "armor": [
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnNUZpZXJjZSBFbmRlciBIZWxtZXQiLCJuYnR0YWciOiJ7ZW5jaDpbXSxIaWRlRmxhZ3M6MjU0LFNrdWxsT3duZXI6e0lkOlwiYzdjOTkxY2QtYTZhZS0zOTQ3LTlmODYtMzIxNzNhOWMxMGQ2XCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7U2lnbmF0dXJlOlwiT0xRWWZWT2NlUEE2aTFnVzFscE9oZ3N4ZnMxRmNGRVBzWlI1TEtqNXRNWk5FOHpIZGlvZ25STVBtQW40SEY0WVJJWDljYzVBanBtWktMVjBsWnB6clI1WVVXQXdrbmN5SnhFM29TMXlkUW9lbnBzdUxTc25LZVRJNWFsRG1oeXFmUVZ3cXR6ZERpdWlCeng3b3JUWUxTL3V1QzlpbkNmejFMU0l1dUtFamp3NXNYc2c2R2VXcXArc3pLbnJVQ2pTNFNPeVlaRzdNMW5yVzkwRWdZaldTSkFOaW1NdEF4WVB4YVJQSHFiT0RKTTE3Qks0aHZ5KzBDQWo4QTNuelhWejJlN2duT3hwMlNWZTNGQkJBSXYxWGRVYllCY1RyYlFQY0w5ZTA2UUgrSGFWcnlaeTV3L2hYWmtSeksrbERtbk9odzdDbzRBODc2V0gwYytnY0FSREtIbi9yWUFQT0ErTnJjZWE1WWV0TXB5WjYwMTRHYlVYZDBvdTRRSFNPeXpYbkVscVRSVG1DSjBJd3JZZ21GT2RzZlZkMnNyeGdFUVAwNlg0NkJ5b1ZNeVJnVmdJNU9KaGs0VEZtaU9RcDRqbk1aOSt6UENidklHaXNaejk4QnBMMElFV0FwcDJNampFVGVNZlVNajFJbHNERG52L0MzMEFUM25hSmVGaWtuWFRuRjFwY29KRGZjSzA4ejVJdjRpcUlHMzlYb0VTcU5PQ285OXFXTkJIYkZJRHM0REQyN1JJTFpHbkRIaUdVWXBWRVZTY3RCenZueXdsU2dzM1V6MHlhMVJOVlpEa3Jua3NSTFBhZStuL0E3ZmFCWG1MWDI3VDFycVFUT2Yyb29FM0VUbzV0di9kbis3MkdXbUg3dnNDWVRDM3ZtYy94YUtTZ0NnNnJiUUJTUk09XCIsVmFsdWU6XCJleUowYVcxbGMzUmhiWEFpT2pFMU5UZzJNekU1TWpNNU1EQXNJbkJ5YjJacGJHVkpaQ0k2SWpjMU1UUTBORGd4T1RGbE5qUTFORFk0WXprM016bGhObVV6T1RVM1ltVmlJaXdpY0hKdlptbHNaVTVoYldVaU9pSlVhR0Z1YTNOTmIycGhibWNpTENKemFXZHVZWFIxY21WU1pYRjFhWEpsWkNJNmRISjFaU3dpZEdWNGRIVnlaWE1pT25zaVUwdEpUaUk2ZXlKMWNtd2lPaUpvZEhSd09pOHZkR1Y0ZEhWeVpYTXViV2x1WldOeVlXWjBMbTVsZEM5MFpYaDBkWEpsTDJZM01UVmpZVEJtTnpReU5UUTBZV1V6WTJFeE1EUXlPVGMxTnpoak1tVmtOekF3WldFellUVTBPVGd3TkRFek5URXlaalZsTjJFd1ltTXdOamN5T1dFaWZYMTlcIn1dfX0sZGlzcGxheTp7TG9yZTpbMDpcIsKnN1N0cmVuZ3RoOiDCp2MrOCDCpzkoKzgpXCIsMTpcIsKnN0NyaXQgQ2hhbmNlOiDCp2MrNSUgwqc5KCs1JSlcIiwyOlwiwqc3Q3JpdCBEYW1hZ2U6IMKnYysxNCUgwqc5KCsxNCUpXCIsMzpcIsKnN0hlYWx0aDogwqdhKzk1XCIsNDpcIsKnN0RlZmVuc2U6IMKnYSs1NVwiLDU6XCJcIiw2Olwiwqc5R3Jvd3RoIFZcIiw3Olwiwqc3R3JhbnRzIMKnYSs3NSDCp2PinaQgSGVhbHRowqc3LlwiLDg6XCLCpzlQcm90ZWN0aW9uIFZcIiw5Olwiwqc3R3JhbnRzIMKnYSsyMCDCp2HinYggRGVmZW5zZcKnNy5cIiwxMDpcIlwiLDExOlwiwqc3QWxsIHN0YXRzIG9uIHRoaXMgYXJtb3IgcGllY2UgYXJlXCIsMTI6XCLCpzdtdWx0aXBsaWVkIGJ5IMKnNTJ4IMKnN3doaWxlIG9uIHRoZSBFbmRcIiwxMzpcIsKnN0lzbGFuZCFcIiwxNDpcIlwiLDE1Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDE2Olwiwqc1wqdsRVBJQyBIRUxNRVRcIl0sTmFtZTpcIsKnNUZpZXJjZSBFbmRlciBIZWxtZXRcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcImZpZXJjZVwiLGlkOlwiRU5EX0hFTE1FVFwiLGVuY2hhbnRtZW50czp7Z3Jvd3RoOjUscHJvdGVjdGlvbjo1fSx1dWlkOlwiODg4NmE2MDYtMGNjMC00OWZmLTg3MWQtNTVhODJmY2FjN2EwXCIsdGltZXN0YW1wOjE3MTYwNTA5MjI4MTJMfX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Y2hhaW5tYWlsX2NoZXN0cGxhdGUiLCJkaXNwbGF5bmFtZSI6IsKnNVB1cmUgRW5kZXIgQ2hlc3RwbGF0ZSIsIm5idHRhZyI6IntlbmNoOltdLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1N0cmVuZ3RoOiDCp2MrNiDCpzkoKzYpXCIsMTpcIsKnN0NyaXQgQ2hhbmNlOiDCp2MrOCUgwqc5KCs4JSlcIiwyOlwiwqc3Q3JpdCBEYW1hZ2U6IMKnYys2JSDCpzkoKzYlKVwiLDM6XCLCpzdCb251cyBBdHRhY2sgU3BlZWQ6IMKnYyszJSDCpzkoKzMlKVwiLDQ6XCLCpzdIZWFsdGg6IMKnYSsxMTEgwqc5KCs2KVwiLDU6XCLCpzdEZWZlbnNlOiDCp2ErODYgwqc5KCs2KVwiLDY6XCLCpzdTcGVlZDogwqdhKzEgwqc5KCsxKVwiLDc6XCLCpzdJbnRlbGxpZ2VuY2U6IMKnYSs2IMKnOSgrNilcIiw4OlwiXCIsOTpcIsKnOUdyb3d0aCBWXCIsMTA6XCLCpzdHcmFudHMgwqdhKzc1IMKnY+KdpCBIZWFsdGjCpzcuXCIsMTE6XCLCpzlQcm90ZWN0aW9uIFZcIiwxMjpcIsKnN0dyYW50cyDCp2ErMjAgwqdh4p2IIERlZmVuc2XCpzcuXCIsMTM6XCJcIiwxNDpcIsKnN0FsbCBzdGF0cyBvbiB0aGlzIGFybW9yIHBpZWNlIGFyZVwiLDE1Olwiwqc3bXVsdGlwbGllZCBieSDCpzUyeCDCpzd3aGlsZSBvbiB0aGUgRW5kXCIsMTY6XCLCpzdJc2xhbmQhXCIsMTc6XCJcIiwxODpcIsKnOMKnbCogwqc4Q28tb3AgU291bGJvdW5kIMKnOMKnbCpcIiwxOTpcIsKnNcKnbEVQSUMgQ0hFU1RQTEFURVwiXSxOYW1lOlwiwqc1UHVyZSBFbmRlciBDaGVzdHBsYXRlXCJ9LEV4dHJhQXR0cmlidXRlczp7bW9kaWZpZXI6XCJwdXJlXCIsaWQ6XCJFTkRfQ0hFU1RQTEFURVwiLGVuY2hhbnRtZW50czp7Z3Jvd3RoOjUscHJvdGVjdGlvbjo1fSx1dWlkOlwiMWM3ZDg3MzYtOGYyMC00N2MwLTk0YmMtMmM3OWEwNmUyNzljXCIsdGltZXN0YW1wOjE3MTYwNDk3MzExNjVMfX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                    null,
+                    "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Y2hhaW5tYWlsX2Jvb3RzIiwiZGlzcGxheW5hbWUiOiLCpzVGaWVyY2UgRW5kZXIgQm9vdHMiLCJuYnR0YWciOiJ7ZW5jaDpbXSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTdHJlbmd0aDogwqdjKzggwqc5KCs4KVwiLDE6XCLCpzdDcml0IENoYW5jZTogwqdjKzUlIMKnOSgrNSUpXCIsMjpcIsKnN0NyaXQgRGFtYWdlOiDCp2MrMTQlIMKnOSgrMTQlKVwiLDM6XCLCpzdIZWFsdGg6IMKnYSs5MFwiLDQ6XCLCpzdEZWZlbnNlOiDCp2ErNDVcIiw1OlwiXCIsNjpcIsKnOUdyb3d0aCBWXCIsNzpcIsKnN0dyYW50cyDCp2ErNzUgwqdj4p2kIEhlYWx0aMKnNy5cIiw4Olwiwqc5UHJvdGVjdGlvbiBWXCIsOTpcIsKnN0dyYW50cyDCp2ErMjAgwqdh4p2IIERlZmVuc2XCpzcuXCIsMTA6XCJcIiwxMTpcIsKnN0FsbCBzdGF0cyBvbiB0aGlzIGFybW9yIHBpZWNlIGFyZVwiLDEyOlwiwqc3bXVsdGlwbGllZCBieSDCpzUyeCDCpzd3aGlsZSBvbiB0aGUgRW5kXCIsMTM6XCLCpzdJc2xhbmQhXCIsMTQ6XCJcIiwxNTpcIsKnOMKnbCogwqc4Q28tb3AgU291bGJvdW5kIMKnOMKnbCpcIiwxNjpcIsKnNcKnbEVQSUMgQk9PVFNcIl0sTmFtZTpcIsKnNUZpZXJjZSBFbmRlciBCb290c1wifSxFeHRyYUF0dHJpYnV0ZXM6e21vZGlmaWVyOlwiZmllcmNlXCIsaWQ6XCJFTkRfQk9PVFNcIixlbmNoYW50bWVudHM6e2dyb3d0aDo1LHByb3RlY3Rpb246NX0sdXVpZDpcImFlZmY1ZDk2LTcxNGMtNDhlZC04OTk0LTYzNGVhZmY0MWZkZFwiLHRpbWVzdGFtcDoxNzE1OTAyMDAwMDQyTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d"
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "3": {
+                  "id": 3,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "4": {
+                  "id": 4,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "5": {
+                  "id": 5,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "6": {
+                  "id": 6,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "7": {
+                  "id": 7,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "8": {
+                  "id": 8,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "9": {
+                  "id": 9,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "10": {
+                  "id": 10,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "11": {
+                  "id": 11,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "12": {
+                  "id": 12,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "13": {
+                  "id": 13,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "14": {
+                  "id": 14,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "15": {
+                  "id": 15,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "16": {
+                  "id": 16,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "17": {
+                  "id": 17,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                },
+                "18": {
+                  "id": 18,
+                  "armor": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "locked": false,
+                  "favorite": false
+                }
+              },
+              "currentSlot": 1
+            },
+            "hoppityEventStats": {}
           }
         },
         "useRomanNumerals": true,
         "multipleProfiles": true,
-        "gardenCommunityUpgrade": -1,
+        "gardenCommunityUpgrade": 0,
         "nextCityProjectParticipationTime": 0,
         "communityShopAccountUpgrade": {
           "completionTime": -1
@@ -4559,17 +5619,26 @@
           "1725148800": {
             "tierOneMinionsDone": [],
             "goals": {}
+          },
+          "1727740800": {
+            "tierOneMinionsDone": [],
+            "goals": {}
+          },
+          "1730419200": {
+            "tierOneMinionsDone": [],
+            "goals": {}
           }
         },
         "limbo": {
-          "playtime": 0,
-          "personalBest": 0,
-          "userLuck": 0.0
+          "playtime": 6000,
+          "personalBest": 5947,
+          "userLuck": 4.82
         }
       }
     },
     "currentFameRank": "New player",
-    "blacklistedUsers": []
+    "blacklistedUsers": [],
+    "reminders": {}
   },
-  "lastVersion": 54
+  "lastVersion": 61
 }

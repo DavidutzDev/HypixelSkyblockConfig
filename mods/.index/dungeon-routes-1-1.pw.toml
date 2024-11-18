@@ -1,0 +1,13 @@
+filename = 'Dungeon_Rooms-3.4.1.jar'
+name = 'Dungeon_routes-1.1'
+side = 'both'
+
+[download]
+hash = '081153c67f29d7989de6a57c12465f911eb6f925'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5701134
+project-id = 1098569

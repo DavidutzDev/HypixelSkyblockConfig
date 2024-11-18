@@ -1,13 +1,13 @@
-filename = 'MC.1.8.9.Danker.s.Skyblock.Mod.-.2.2.jar'
+filename = "[MC 1.8.9] Danker's Skyblock Mod - 2.3.1.jar"
 name = "Danker's Skyblock Mod"
-side = 'client'
+side = 'both'
 
 [download]
-hash = '0c60f1f954966569e47ca5890ab1bb38367c416bda0cc6176afe52a83a9bf739d72d5131cbd28426116074027890d73d3704214828a8569cbac510bfe08caab9'
+hash = '1197e59a79620801f78ba8dde3cc95c1358e387730579ac2cc5e4a8c193466e39fc755027a313e332c295277864a2cea338e5bc57db1a1617b3f18f663560a26'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QzpBqSX9/versions/VFcyXm7F/MC.1.8.9.Danker.s.Skyblock.Mod.-.2.2.jar'
+url = 'https://cdn.modrinth.com/data/QzpBqSX9/versions/33yTVI3o/%5BMC 1.8.9%5D Danker%27s Skyblock Mod - 2.3.1.jar'
 
 [update.modrinth]
 mod-id = 'QzpBqSX9'
-version = 'VFcyXm7F'
+version = '33yTVI3o'

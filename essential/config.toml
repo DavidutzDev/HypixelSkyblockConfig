@@ -19,6 +19,7 @@
 		quick_action_bar = true
 
 [hidden]
+	play_emote_sounds_in_wardrobe = true
 	previously_launched_with_container = 2
 
 	[hidden.hidden]
@@ -33,6 +34,7 @@
 
 	[emotes.general]
 		disable_emotes = false
+		allow_emote_sounds = 0
 		play_emotes_in_third_person_view = true
 		emote_preview = false
 

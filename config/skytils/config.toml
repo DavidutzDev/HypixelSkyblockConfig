@@ -17,7 +17,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.6"
+		last_launched_skytils_version = "1.10.7"
 
 	[general.reparty]
 		override_other_reparty_commands = true
@@ -29,6 +29,7 @@
 		local_api_password = ""
 
 	[general.command_aliases]
+		command_alias_subcommands = false
 		command_alias_mode = 0
 
 	[general.api]

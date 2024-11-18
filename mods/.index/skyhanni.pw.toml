@@ -1,13 +1,13 @@
-filename = 'SkyHanni-0.26.jar'
-name = 'SkyHanni for Hypixel SkyBlock'
-side = 'client'
+filename = 'SkyHanni-0.27.jar'
+name = 'SkyHanni'
+side = 'both'
 
 [download]
-hash = '2078e46336293bb64cc0067cf5de1bc9e2c73ccadc3602029a3c859d5349b556030492724014cb1445a0530bb1d8c671db104b3f76d08608966a28bb039ba18b'
+hash = '255bce5b6ce3826946e952b077cbbc0f87be74dbc4c4ac959aa4bc6f83f4edbbf4ed05a752778275e3fa953606ff3174672fb8e458365b29c5d833b1b82c1168'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/byNkmv5G/versions/ZHL1fCzB/SkyHanni-0.26.jar'
+url = 'https://cdn.modrinth.com/data/byNkmv5G/versions/JGf4J6LB/SkyHanni-0.27.jar'
 
 [update.modrinth]
 mod-id = 'byNkmv5G'
-version = 'ZHL1fCzB'
+version = 'JGf4J6LB'

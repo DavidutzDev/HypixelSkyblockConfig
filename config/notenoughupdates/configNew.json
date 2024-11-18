@@ -396,6 +396,7 @@
     "profitDisplayLoc": 0,
     "useKismetOnDungeonProfit": true,
     "useEssenceCostFromBazaar": true,
+    "useChestKeyCost": true,
     "shouldWarningDerpy": true,
     "enableDungeonWin": true,
     "dungeonWinMillis": 8000,
@@ -437,6 +438,7 @@
     "locWaypoints": 1,
     "hideWaypointIfAtLocation": true,
     "emissaryWaypoints": 1,
+    "hideEmissaryWaypointInTunnels": true,
     "powderGhastWaypoint": true,
     "fallenStarWaypoint": true,
     "tunnelWaypoints": "SHOW_ALL",
@@ -660,6 +662,7 @@
   },
   "recipeTweaks": {
     "enableSearchOverlay": true,
+    "addPickaxeStack": true,
     "keepPreviousSearch": false,
     "showPastSearches": true,
     "escFullClose": true,
@@ -729,7 +732,7 @@
     "displayWeight": true
   },
   "minionHelper": {
-    "gui": true,
+    "gui": false,
     "tooltip": true
   },
   "apiData": {
@@ -750,7 +753,7 @@
       "Lime": {
         "godPotionDuration": 0,
         "puzzlerCompleted": 0,
-        "firstCakeAte": 1727109087072,
+        "firstCakeAte": 1731761118175,
         "fetchurCompleted": 0,
         "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
@@ -785,7 +788,7 @@
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 0,
         "questBoardCompleted": 0,
-        "dailyShopLimitCompleted": 0,
+        "dailyShopLimitCompleted": 1731867324585,
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
@@ -1578,11 +1581,16 @@
       "bucket"
     ],
     "previousProfileSearches": [
-      "unicorndear",
-      "actuallyash1",
-      "iizmw"
+      "iizmw",
+      "saasha73",
+      "_theproximity",
+      "shrekman02",
+      "imwapy",
+      "dl0r"
     ],
-    "previousRecipeSearches": [],
+    "previousRecipeSearches": [
+      "Ice Cube"
+    ],
     "eventFavourites": [],
     "quickCommands": [
       "/warp home:Warp Home:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0\u003d",
@@ -1608,7 +1616,8 @@
     "firstTimeSearchFocus": false,
     "disableBrokenCapes": false,
     "npcRetextureOnSelf": false,
-    "hasOpenedWaypointMenu": false
+    "hasOpenedWaypointMenu": true,
+    "disableClientSideSearch": false
   },
   "dungeonMap": {
     "dmBorderSize": 1.0,

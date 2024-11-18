@@ -746,6 +746,10 @@
     ],
     "dataBit": -1
   },
+  "pearlKey": {
+    "keyBinds": []
+  },
+  "pearlAmount": 16,
   "maddoxKey": {
     "keyBinds": [
       50

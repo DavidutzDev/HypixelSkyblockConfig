@@ -83,7 +83,7 @@
   "hideSpam": false,
   "chatWindow": {
     "normalScale": 1.0,
-    "lastChatGuiScale": 0.57042253,
+    "lastChatGuiScale": 0.5492958,
     "transferOverScale": true,
     "customChatHeight": false,
     "focusedHeight": 180,
@@ -128,7 +128,7 @@
       "x": 2.0,
       "y": -39.0
     },
-    "scale": 0.57042253,
+    "scale": 0.5492958,
     "positionAlignment": 0,
     "showInChat": true,
     "showInDebug": true,

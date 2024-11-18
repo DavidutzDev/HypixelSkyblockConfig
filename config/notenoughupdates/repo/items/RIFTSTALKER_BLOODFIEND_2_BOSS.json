@@ -32,7 +32,7 @@
         {
           "id": "COVEN_SEAL",
           "extra": [
-            "x9-18"
+            "x10-16"
           ],
           "chance": "100%"
         },
@@ -55,6 +55,11 @@
           "id": "CHOCOLATE_CHIP",
           "extra": [],
           "chance": "10%"
+        },
+        {
+          "id": "DYE_SANGRIA",
+          "extra": [],
+          "chance": "0.00125%"
         }
       ]
     }
