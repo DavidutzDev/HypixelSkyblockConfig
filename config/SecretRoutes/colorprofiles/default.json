@@ -1,0 +1,141 @@
+{
+  "etherwarpsTextSize": 3.0,
+  "superboomsWaypointColorIndex": 12,
+  "renderSecretsItem": true,
+  "interactsTextSize": 3.0,
+  "enderpearls": {
+    "hsba": [
+      180,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "exitWaypointColorIndex": 12,
+  "interacts": {
+    "hsba": [
+      240,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "superboomsTextSize": 3.0,
+  "startTextSize": 3.0,
+  "interactsEnumToggle": false,
+  "exitTextToggle": true,
+  "superboomsEnumToggle": false,
+  "pearlLineColor": {
+    "hsba": [
+      180,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "minesTextToggle": false,
+  "minesEnumToggle": false,
+  "enderpearlTextToggle": true,
+  "enderpearlFullBlock": false,
+  "itemTextSize": 3.0,
+  "interactTextSize": 3.0,
+  "enderpearlWaypointColorIndex": 11,
+  "lineColor": {
+    "hsba": [
+      0,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "renderEnderpearls": true,
+  "superboomsFullBlock": false,
+  "etherwarpsWaypointColorIndex": 5,
+  "secretsItemFullBlock": false,
+  "renderInteracts": true,
+  "itemTextToggle": true,
+  "startWaypointColorIndex": 12,
+  "minesTextSize": 3.0,
+  "itemWaypointColorIndex": 11,
+  "secretsItem": {
+    "hsba": [
+      180,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "interactWaypointColorIndex": 9,
+  "batWaypointColorIndex": 10,
+  "secretsBatFullBlock": false,
+  "interactsWaypointColorIndex": 9,
+  "etherwarpsEnumToggle": false,
+  "interactsFullBlock": false,
+  "etherwarpsTextToggle": false,
+  "enderpearlEnumToggle": false,
+  "secretsBat": {
+    "hsba": [
+      120,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "superboomsTextToggle": false,
+  "secretsInteractFullBlock": false,
+  "mine": {
+    "hsba": [
+      60,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "interactTextToggle": true,
+  "batTextToggle": true,
+  "renderSecretIteract": true,
+  "interactsTextToggle": false,
+  "batTextSize": 3.0,
+  "enderpearlTextSize": 3.0,
+  "secretsInteract": {
+    "hsba": [
+      240,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "startTextToggle": true,
+  "mineFullBlock": false,
+  "renderMines": true,
+  "superbooms": {
+    "hsba": [
+      0,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "etherWarp": {
+    "hsba": [
+      300,
+      100,
+      50,
+      255
+    ],
+    "dataBit": -1
+  },
+  "minesWaypointColorIndex": 14,
+  "renderSecretBat": true,
+  "exitTextSize": 3.0,
+  "etherwarpFullBlock": false
+}

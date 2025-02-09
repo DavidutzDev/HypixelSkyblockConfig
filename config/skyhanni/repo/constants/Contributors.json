@@ -15,6 +15,9 @@
       "spinny": true,
       "upsideDown": true
     },
+    "Chissl": {
+      "suffix": "§2§l:D"
+    },
     "cimbraien": {},
     "Conutik": {
       "suffix": "§c§lツ"
@@ -46,7 +49,9 @@
       "suffix": "§d;3"
     },
     "JTAG": {},
-    "Ke5o": {},
+    "Ke5o": {
+      "suffix": "§7I can't think of anything funny"
+    },
     "lrg89": {
       "suffix": "§Z<3",
       "upsideDown": true
@@ -59,6 +64,9 @@
     "NetheriteMiner": {},
     "oBlazin": {
       "suffix": "§d§l^^"
+    },
+    "not_a_cowfr": {
+      "suffix": "§c:3"
     },
     "Obsidianninja11": {
       "suffix": "§z(:"
@@ -150,9 +158,6 @@
       "spinny": true,
       "upsideDown": true,
       "external_mod": "SBA"
-    },
-    "NeoNyaa": {
-      "suffix": "§d❤"
     }
   }
 }

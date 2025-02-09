@@ -292,13 +292,22 @@
 [master]
 
 	[master.sounds]
-		gui_button_press = 100
-		purchase_confirmation = 100
+		zyra_meow7 = 100
+		zyra_meow8 = 100
 		calendar_notif_jingle = 100
+		zyra_meow5 = 100
+		zyra_meow6 = 100
+		zyra_meow3 = 100
+		zyra_meow4 = 100
+		zyra_meow1 = 100
 		calendar_notif_out = 100
-		warning = 100
+		zyra_meow2 = 100
 		coin_fill_up = 100
 		screenshot = 100
 		calendar_notif_in = 100
+		gui_button_press = 100
+		purchase_confirmation = 100
+		warning = 100
+		zyra_meow0 = 100
 		chime = 100
 

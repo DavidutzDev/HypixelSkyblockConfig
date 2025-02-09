@@ -13,7 +13,7 @@
   "golden": false,
   "drillFix": true,
   "autoAcceptReparty": false,
-  "meterTracker": false,
+  "meterTracker": true,
   "chatMaddox": true,
   "blockSlayer": false,
   "slayerName": 0,
@@ -87,9 +87,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "3",
-      "x": 129.0,
-      "y": -18.5
+      "anchor": "5",
+      "x": -120.0,
+      "y": -23.269928
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -224,12 +224,12 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "3",
+      "x": 246.5,
+      "y": 37.230072
     },
     "scale": 1.0,
-    "positionAlignment": 0,
+    "positionAlignment": 1,
     "showInChat": true,
     "showInDebug": false,
     "showInGuis": true
@@ -273,8 +273,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 110.0,
-      "y": 14.0
+      "x": 114.58291,
+      "y": 3.6250973
     },
     "scale": 0.5462891,
     "positionAlignment": 1,
@@ -305,9 +305,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 141.5,
-      "y": 54.0
+      "anchor": "6",
+      "x": 15.721825,
+      "y": -73.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -322,8 +322,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 36.721485,
-      "y": 60.5
+      "x": 177.0,
+      "y": 11.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -338,8 +338,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 30.721485,
-      "y": 92.0
+      "x": 176.72148,
+      "y": 27.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -354,8 +354,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "0",
-      "x": 91.0,
-      "y": 83.0
+      "x": 176.72148,
+      "y": 42.5
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -384,8 +384,8 @@
     "ignoreCaching": false,
     "position": {
       "anchor": "6",
-      "x": 50.0,
-      "y": -90.5
+      "x": 12.221825,
+      "y": -78.0
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -458,9 +458,9 @@
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "0",
-      "x": 0.0,
-      "y": 0.0
+      "anchor": "8",
+      "x": -129.0,
+      "y": -117.634964
     },
     "scale": 1.0,
     "positionAlignment": 0,
@@ -488,13 +488,13 @@
   "powderTrackerHud": {
     "powderTrackerColour": 11,
     "onlyInArea": true,
-    "enabled": true,
+    "enabled": false,
     "locked": false,
     "ignoreCaching": false,
     "position": {
-      "anchor": "8",
-      "x": -158.5,
-      "y": -81.5
+      "anchor": "0",
+      "x": 0.0,
+      "y": 110.0
     },
     "scale": 1.0,
     "positionAlignment": 0,

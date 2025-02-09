@@ -1,13 +1,13 @@
-filename = 'SkyHanni-0.27.jar'
+filename = 'SkyHanni-1.0.0-mc1.8.9.jar'
 name = 'SkyHanni'
 side = 'both'
 
 [download]
-hash = '255bce5b6ce3826946e952b077cbbc0f87be74dbc4c4ac959aa4bc6f83f4edbbf4ed05a752778275e3fa953606ff3174672fb8e458365b29c5d833b1b82c1168'
+hash = '08d43511d5cc2433e989bb00a7ee74f21fe13db1c873820550c12fbd93756423171558b7a4d5188dc07c55e460392d9ee41f541cf02bd30f84f637891726bc0d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/byNkmv5G/versions/JGf4J6LB/SkyHanni-0.27.jar'
+url = 'https://cdn.modrinth.com/data/byNkmv5G/versions/Pc7TTRiN/SkyHanni-1.0.0-mc1.8.9.jar'
 
 [update.modrinth]
 mod-id = 'byNkmv5G'
-version = 'JGf4J6LB'
+version = 'Pc7TTRiN'

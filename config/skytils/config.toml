@@ -10,6 +10,11 @@
 		hide_pet_nametags = false
 		pet_item_confirmation = false
 
+[rift]
+
+	[rift.solvers]
+		quad_link_legacy_solver = false
+
 [general]
 
 	[general.other]
@@ -17,7 +22,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.7"
+		last_launched_skytils_version = "1.10.9"
 
 	[general.reparty]
 		override_other_reparty_commands = true
@@ -87,7 +92,7 @@
 		prevent_placing_weapons = false
 		show_attribute_shard_level = false
 		show_item_quality_ = false
-		show_gemstones = false
+		show_gemstones = true
 		highlight_filled_bazaar_orders = false
 		show_dungeon_floor_as_stack_size = false
 		show_head_floor_number = false
@@ -325,7 +330,7 @@
 		receive_score_calculation_party_assist = false
 		create_title_on_270_score = false
 		"allow_mimic_dead!_from_other_mods" = false
-		show_dungeon_score_estimate = false
+		show_dungeon_score_estimate = true
 		create_title_on_300_score = false
 		minimized_dungeon_score_estimate = false
 		score_calculation_party_assist = false
@@ -428,24 +433,25 @@
 [mining]
 
 	[mining.crystal_hollows]
-		crystal_hollows_chat_coordinates_grabber = false
+		crystal_hollows_chat_coordinates_grabber = true
 		crystal_hollows_death_waypoints = false
-		crystal_hollows_waypoints = false
-		king_yolkar_waypoint = false
-		crystal_hollows_map_special_places = false
-		crystal_hollows_treasure_helper = false
+		crystal_hollows_waypoints = true
+		crystal_hollows_map_player_arrow_scale = 2.25
+		king_yolkar_waypoint = true
+		crystal_hollows_map_special_places = true
+		crystal_hollows_treasure_helper = true
 		crystal_hollows_map = true
 
 	[mining.quality_of_life]
-		powder_ghast_ping = false
+		powder_ghast_ping = true
 		skymall_reminder = false
-		raffle_warning = false
+		raffle_warning = true
 		dark_mode_mist = false
 		recolor_carpets = false
-		highlight_completed_commissions = false
+		highlight_completed_commissions = true
 		highlight_disabled_hotm_perks = false
 		more_visible_ghosts = false
-		raffle_waypoint = false
+		raffle_waypoint = true
 
 	[mining.solvers]
 		puzzler_solver = true

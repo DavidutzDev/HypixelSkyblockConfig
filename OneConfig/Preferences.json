@@ -19,6 +19,7 @@
   "pageAnimationDuration": 0.3,
   "toggleSwitchBounce": true,
   "trackerResponseDuration": 60.0,
+  "autoUpdate": true,
   "updateChannel": 0,
   "DEBUG": false,
   "firstLaunch": false,

@@ -15,7 +15,7 @@ ofAnimatedLava:0
 ofAnimatedFire:true
 ofAnimatedPortal:true
 ofAnimatedRedstone:true
-ofAnimatedExplosion:true
+ofAnimatedExplosion:false
 ofAnimatedFlame:true
 ofAnimatedSmoke:true
 ofVoidParticles:true

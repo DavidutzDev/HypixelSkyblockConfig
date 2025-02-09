@@ -257,10 +257,6 @@
           "mending"
         ],
         [
-          "dominance",
-          "mana_pool"
-        ],
-        [
           "breeze",
           "mana_pool"
         ],
@@ -274,20 +270,16 @@
       "regex": "MOLTEN_NECKLACE",
       "list": [
         [
-          "veteran",
-          "magic_find"
-        ],
-        [
-          "magic_find",
-          "mending"
-        ],
-        [
           "dominance",
           "speed"
         ],
         [
           "mana_pool",
           "mana_regeneration"
+        ],
+        [
+          "dominance",
+          "mana_pool"
         ],
         [
           "veteran",

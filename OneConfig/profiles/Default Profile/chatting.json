@@ -12,7 +12,7 @@
   "fade": true,
   "fadeTime": 10.0,
   "informForAlternatives": true,
-  "chatPeek": false,
+  "chatPeek": true,
   "peekScrolling": true,
   "chatPeekBind": {
     "keyBinds": [
@@ -83,7 +83,7 @@
   "hideSpam": false,
   "chatWindow": {
     "normalScale": 1.0,
-    "lastChatGuiScale": 0.5492958,
+    "lastChatGuiScale": 0.75352114,
     "transferOverScale": true,
     "customChatHeight": false,
     "focusedHeight": 180,
@@ -128,7 +128,7 @@
       "x": 2.0,
       "y": -39.0
     },
-    "scale": 0.5492958,
+    "scale": 0.75352114,
     "positionAlignment": 0,
     "showInChat": true,
     "showInDebug": true,
@@ -185,8 +185,8 @@
   "hypixelOnlyChatShortcuts": true,
   "removeTooltipBackground": false,
   "tooltipTextRenderType": 1,
-  "isPatcherMigrated": false,
-  "isPatcherMigratedPt2CauseImStupid": false,
+  "isPatcherMigrated": true,
+  "isPatcherMigratedPt2CauseImStupid": true,
   "enabled": true,
   "canToggle": true
 }

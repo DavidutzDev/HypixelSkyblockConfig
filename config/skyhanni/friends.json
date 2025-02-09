@@ -1,3 +1,84 @@
 {
-  "players": {}
+  "players": {
+    "d1463325-c3bc-4566-a1d7-f89200a52c8f": {
+      "friends": {
+        "9ce840b0-f361-4037-8ec9-6e38cda7f936": {
+          "name": "warmalol",
+          "bestFriend": false
+        },
+        "e3362c65-bded-4630-83d8-f4da44486a87": {
+          "name": "ArkylonFR",
+          "bestFriend": false
+        },
+        "8aa9d6b2-1c83-4319-84cf-548b6f5a5adb": {
+          "name": "BaptGosse_",
+          "bestFriend": false
+        },
+        "261582f7-12cf-44c6-9653-de2b7d358c6a": {
+          "name": "ItsLOLplays",
+          "bestFriend": false
+        },
+        "c9cff79b-3eff-4ba5-8f8b-9e27b02195b8": {
+          "name": "Terraflopp932",
+          "bestFriend": false
+        },
+        "e0fbab50-fab4-4eef-87b1-b8e264aa8009": {
+          "name": "Lacker_LOL",
+          "bestFriend": false
+        },
+        "f9cc7a86-7868-4912-83ed-9e9beefb72da": {
+          "name": "led54",
+          "bestFriend": false
+        },
+        "344bece4-9c0a-47e4-b653-75bbf41677bd": {
+          "name": "LeMiniBledardd",
+          "bestFriend": false
+        },
+        "3aeb5d80-6930-4613-847a-0b1353437bb0": {
+          "name": "Retrix_Off",
+          "bestFriend": false
+        },
+        "2097d66e-d51d-4683-91a7-2afd027fbb75": {
+          "name": "tufonix_99",
+          "bestFriend": false
+        }
+      }
+    },
+    "261582f7-12cf-44c6-9653-de2b7d358c6a": {
+      "friends": {
+        "2ddb7604-ae7b-4f9f-883d-161ca8788a9b": {
+          "name": "_BreadBrother",
+          "bestFriend": false
+        },
+        "671228ab-1292-45a6-b2ba-b2b1258640c6": {
+          "name": "Blijter",
+          "bestFriend": false
+        },
+        "669437c7-8b7e-4624-b0d4-845921fbf15a": {
+          "name": "Creep3r2016",
+          "bestFriend": false
+        },
+        "0d775068-6f6f-476b-98fb-6d45b32c334e": {
+          "name": "Cry1ngLava",
+          "bestFriend": false
+        },
+        "6e2f1ffc-1074-4841-aa81-2214e9a8323d": {
+          "name": "D1EEEEEE",
+          "bestFriend": false
+        },
+        "d1463325-c3bc-4566-a1d7-f89200a52c8f": {
+          "name": "Davidutz_",
+          "bestFriend": false
+        },
+        "07f4eae3-ff17-405c-b026-16efc0a803b8": {
+          "name": "ehmad",
+          "bestFriend": false
+        },
+        "d5f10fcf-8f30-4b4b-9e28-da0f20adcdaf": {
+          "name": "GoTouchGras",
+          "bestFriend": false
+        }
+      }
+    }
+  }
 }

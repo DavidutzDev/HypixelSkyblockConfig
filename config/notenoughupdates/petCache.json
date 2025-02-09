@@ -1,6 +1,22 @@
 {
   "petMap": {
     "0": {
+      "petType": "ARMADILLO",
+      "rarity": "EPIC",
+      "petLevel": {
+        "currentLevel": 66,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 119700,
+        "expRequiredForMaxLevel": 18608500,
+        "expInCurrentLevel": 100767.875,
+        "expTotal": 1621467.9,
+        "percentageToNextLevel": 0.84183687
+      },
+      "petXpType": "mining",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "1": {
       "petType": "ENDERMAN",
       "rarity": "RARE",
       "petLevel": {
@@ -13,24 +29,59 @@
         "percentageToNextLevel": 0.7190253
       },
       "petXpType": "combat",
-      "candyUsed": 0
-    },
-    "1": {
-      "petType": "GRIFFIN",
-      "rarity": "COMMON",
-      "petLevel": {
-        "currentLevel": 56,
-        "maxLevel": 100,
-        "expRequiredForNextLevel": 16200,
-        "expRequiredForMaxLevel": 5624785,
-        "expInCurrentLevel": 10903.25,
-        "expTotal": 169388.25,
-        "percentageToNextLevel": 0.67304015
-      },
-      "petXpType": "combat",
+      "skinVariantSelected": -1,
       "candyUsed": 0
     },
     "2": {
+      "petType": "ROCK",
+      "rarity": "RARE",
+      "petLevel": {
+        "currentLevel": 1,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 275,
+        "expRequiredForMaxLevel": 12626665,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "mining",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "3": {
+      "petType": "GRIFFIN",
+      "rarity": "UNCOMMON",
+      "petLevel": {
+        "currentLevel": 93,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 383700,
+        "expRequiredForMaxLevel": 8644220,
+        "expInCurrentLevel": 91499.5,
+        "expTotal": 5331819.5,
+        "percentageToNextLevel": 0.23846625
+      },
+      "petXpType": "combat",
+      "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "4": {
+      "petType": "ROCK",
+      "rarity": "UNCOMMON",
+      "petLevel": {
+        "currentLevel": 1,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 175,
+        "expRequiredForMaxLevel": 8644220,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "mining",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "5": {
       "petType": "BEE",
       "rarity": "COMMON",
       "petLevel": {
@@ -43,11 +94,28 @@
         "percentageToNextLevel": 0.0
       },
       "petXpType": "farming",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "27": {
+      "petType": "OWL",
+      "rarity": "LEGENDARY",
+      "petLevel": {
+        "currentLevel": 1,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 660,
+        "expRequiredForMaxLevel": 25353230,
+        "expInCurrentLevel": 0.0,
+        "expTotal": 0.0,
+        "percentageToNextLevel": 0.0
+      },
+      "petXpType": "taming",
+      "skinVariantSelected": 0,
       "candyUsed": 0
     }
   },
-  "selectedPet": 1,
-  "selectedPet2": 0,
-  "tamingLevel": 16,
-  "beastMultiplier": 0.0
+  "selectedPet": 3,
+  "selectedPet2": -1,
+  "tamingLevel": 55,
+  "beastMultiplier": 1.2
 }

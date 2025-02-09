@@ -1229,6 +1229,50 @@
     "BIOFUEL": 3000,
     "VOLTA": 10000,
     "OIL_BARREL": 10000
+  },
+  "personal_best_increment": {
+    "CACTUS": 200,
+    "CARROT": 300,
+    "COCOA_BEANS": 300,
+    "MELON": 500,
+    "MUSHROOM": 100,
+    "NETHER_WART": 300,
+    "POTATO": 300,
+    "PUMPKIN": 100,
+    "SUGAR_CANE": 200,
+    "WHEAT": 100
+  },
+  "pest_rare_drops": {
+    "FLY": {
+      "ENCHANTED_HAY_BALE": 3
+    },
+    "RAT": {
+      "POLISHED_PUMPKIN": 3
+    },
+    "SLUG": {
+      "ENCHANTED_HUGE_MUSHROOM_1": 15,
+      "ENCHANTED_HUGE_MUSHROOM_2": 15
+    },
+    "MITE": {
+      "ENCHANTED_CACTUS": 6
+    },
+    "MOSQUITO": {
+      "ENCHANTED_SUGAR_CANE": 6
+    },
+    "MOTH": {
+      "ENCHANTED_COOKIE": 11
+    },
+    "BEETLE": {
+      "MUTANT_NETHER_STALK": 9
+    },
+    "CRICKET": {
+      "ENCHANTED_GOLDEN_CARROT": 12
+    },
+    "LOCUST": {
+      "ENCHANTED_BAKED_POTATO": 10
+    },
+    "EARTHWORM": {
+      "ENCHANTED_MELON_BLOCK": 15
+    }
   }
 }
-
